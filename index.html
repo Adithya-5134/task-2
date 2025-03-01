@@ -5,40 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Map</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+            max-width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
-    <img src="images/map.png" usemap="#indiamap" ismap="ismap" > 
-    
-    <map name="indiamap" >
+    <div class="container">
+        <img src="images/map.png" usemap="#indiamap" ismap>
+    </div>
+
+    <map name="indiamap">
         <area href="TamilNadu.html" shape="poly" coords="240,666,302,638,291,716,236,785,215,784,225,739,205,700,218,691" title="TamilNadu"/>
-        <area href="Karnataka.html" shape="poly" coords="140,600,156,553,226,511,225,567,209,578,205,624,245,639,245,653,222,658,225,681,193,684,150,643" title ="Karnataka" />
-        <area href="AndhraPradesh.html" shape="poly" coords="215,616,225,574,232,541,241,482,287,479,313,519,409,490,288,640,262,646" title ="Andhra Pradesh" />
-        <area href="Kerala.html" shape="poly"  coords="157,657,190,687,209,719,216,750,213,782,178,759,155,698" title ="Kerala" /> 
-        <area href="Maharashtra.html" shape="poly"  coords="112,459,137,441,157,421,210,434,297,422,305,477,246,467,193,532,177,528,140,555,144,573,126,571" title ="Maharashtra" />
-        <area href="Goa.html" shape="poly"  coords="124,575,142,576,141,601,121,591" title ="Goa" /> 
-        <area href="Madhyapradesh.html" shape="poly"  coords="156,410,173,363,229,342,233,293,256,355,300,332,351,343,303,418" title ="Madhyapradesh" />
-        <area href="Gujarat.html" shape="poly"  coords="13,345,117,341,150,390,121,456,4,415" title ="Gujarat" /> 
-        <area href="Chhattisgarh.html" shape="poly"  coords="305,491,323,518,349,483,342,455,391,382,348,364,308,429,319,474"  title ="Chhattisgarh" /> 
-        <area href="Orissa.html" shape="poly"   coords="341,508,389,405,472,410,433,468" title ="Orissa" />
-        <area href="Rajasthan.html" shape="poly"   coords="73,323,56,254,157,194,232,291,159,338,152,374,127,340" title ="Rajasthan" />
-        <area href="UttarPradesh.html" shape="poly"  coords="232,199,385,276,365,347,290,309,234,257" title ="Uttar Pradesh" />
-        <area href="JammuAndKashmir.html" shape="poly" coords="141,20,179,11,195,25,219,37,238,49,275,45,253,47,281,55,277,67,263,79,263,93,270,111,249,112,235,99,212,103,197,108,189,119,164,107,156,71,151,82,171,61,164,42,149,31,161,14" title="Jammu and Kashmir" />
-        <area href="HimachalPradesh.html" shape="poly" coords="200,137,209,123,231,125,242,131,205,147,219,159,227,172,232,155,248,151,253,139" title="Himachal Pradesh" />
-        <area href="Punjab.html"  shape="poly" coords="155,185,163,177,171,161,179,147,191,147,194,159,206,165,209,175,201,185,189,191,172,186"  title="Punjab" />
-        <area href="Haryana.html"  shape="poly" coords="169,202,182,204,195,205,211,201,222,189,217,213,217,223,227,241,209,232,197,231,189,214"  title="Haryana" />
-        <area href="Uttarakhand.html"  shape="poly" coords="243,198,249,185,244,174,253,167,265,171,277,169,287,175,296,183,307,187,297,195,291,204,287,215,273,211,261,198"  title="Uttarakhand" />
-        <area href="Bihar.html"  shape="poly" coords="376,329,382,322,389,317,402,309,411,301,399,291,394,273,403,273,416,281,423,282,433,288,446,289,454,290,465,291,478,290,475,297,474,303,463,311,457,321,455,327,440,323,424,326,385,331,395,333,410,333"  title="Bihar" />
-        <area href="Jharkhand.html"  shape="poly" coords="377,349,389,345,402,348,413,348,426,347,441,343,453,337,462,338,472,323,477,330,475,343,464,344,453,351,439,353,432,365,434,375,440,379,453,385,435,385,429,393,417,387,403,389,404,377,399,367,386,356"  title="Jharkhand" />
-        <area href="WestBengal.html"  shape="poly" coords="448,369,456,373,460,381,465,393,473,403,484,405,491,397,501,396,463,361,477,360,485,348,487,333,484,317,489,300,490,280,495,269,507,273,517,276,519,283,503,280,494,311,496,341,500,353,499,362,504,375,507,389"  title="West Bengal" />
-        <area href="Sikkim.html"  shape="poly" coords="483,257,489,248,497,248,494,257"   title="Sikkim" />
-        <area href="ArunachalPradesh.html"  shape="poly" coords="575,244,583,254,587,241,597,232,607,223,617,212,625,209,631,202,643,204,659,203,671,200,675,210,673,217,687,221,691,233,693,240,665,252,670,238,673,225,661,225,644,228,634,233,623,241,617,249,594,253,607,255"  title="Arunachal Pradesh" />
-        <area href="Assam.html"  shape="poly" coords="531,291,532,280,541,275,555,275,567,273,578,269,592,268,608,268,619,265,629,256,636,246,645,239,657,234,657,241,650,253,643,257,633,264,627,273,624,281,613,287,609,298,607,309,606,316,596,329,598,294,587,282,571,283,557,290,545,288"  title="Assam" />
-        <area href="Tripura.html"  shape="poly" coords="568,354,570,345,578,341,588,340,573,361,581,353"   title="Tripura" />
-        <area href="Meghalaya.html"  shape="poly" coords="532,301,543,296,555,297,566,297,581,293,587,300,591,307,573,307,556,307,538,307"  title="Meghalaya" />
-        <area href="Mizoram.html"  shape="poly" coords="591,348,599,341,607,338,617,346,597,357,598,365,601,379,610,387,610,372,614,359"  title="Mizoram" />
-        <area href="Manipur.html"  shape="poly" coords="611,321,619,313,628,303,637,301,642,309,636,316,634,326,632,334,619,333"   title="Manipur" />
-        <area href="Nagaland.html"  shape="poly" coords="617,297,624,292,634,281,641,271,647,263,654,259,652,271,651,280,647,291,634,289"   title="Nagaland" />
-        
+        <area href="Karnataka.html" shape="poly" coords="140,600,156,553,226,511,225,567,209,578,205,624,245,639,245,653,222,658,225,681,193,684,150,643" title="Karnataka"/>
+        <area href="AndhraPradesh.html" shape="poly" coords="215,616,225,574,232,541,241,482,287,479,313,519,409,490,288,640,262,646" title="Andhra Pradesh"/>
+        <area href="Kerala.html" shape="poly" coords="157,657,190,687,209,719,216,750,213,782,178,759,155,698" title="Kerala"/>
+        <area href="Maharashtra.html" shape="poly" coords="112,459,137,441,157,421,210,434,297,422,305,477,246,467,193,532,177,528,140,555,144,573,126,571" title="Maharashtra"/>
+        <area href="Goa.html" shape="poly" coords="124,575,142,576,141,601,121,591" title="Goa"/>
+        <area href="Madhyapradesh.html" shape="poly" coords="156,410,173,363,229,342,233,293,256,355,300,332,351,343,303,418" title="Madhyapradesh"/>
+        <area href="Gujarat.html" shape="poly" coords="13,345,117,341,150,390,121,456,4,415" title="Gujarat"/>
+        <area href="Chhattisgarh.html" shape="poly" coords="305,491,323,518,349,483,342,455,391,382,348,364,308,429,319,474" title="Chhattisgarh"/>
+        <area href="Orissa.html" shape="poly" coords="341,508,389,405,472,410,433,468" title="Orissa"/>
+        <area href="Rajasthan.html" shape="poly" coords="73,323,56,254,157,194,232,291,159,338,152,374,127,340" title="Rajasthan"/>
+        <area href="UttarPradesh.html" shape="poly" coords="232,199,385,276,365,347,290,309,234,257" title="Uttar Pradesh"/>
+        <area href="JammuAndKashmir.html" shape="poly" coords="141,20,179,11,195,25,219,37,238,49,275,45,253,47,281,55,277,67,263,79,263,93,270,111,249,112,235,99,212,103,197,108,189,119,164,107,156,71,151,82,171,61,164,42,149,31,161,14" title="Jammu and Kashmir"/>
+        <area href="HimachalPradesh.html" shape="poly" coords="200,137,209,123,231,125,242,131,205,147,219,159,227,172,232,155,248,151,253,139" title="Himachal Pradesh"/>
+        <area href="Punjab.html" shape="poly" coords="155,185,163,177,171,161,179,147,191,147,194,159,206,165,209,175,201,185,189,191,172,186" title="Punjab"/>
+        <area href="Haryana.html" shape="poly" coords="169,202,182,204,195,205,211,201,222,189,217,213,217,223,227,241,209,232,197,231,189,214" title="Haryana"/>
+        <area href="Uttarakhand.html" shape="poly" coords="243,198,249,185,244,174,253,167,265,171,277,169,287,175,296,183,307,187,297,195,291,204,287,215,273,211,261,198" title="Uttarakhand"/>
+        <area href="Bihar.html" shape="poly" coords="376,329,382,322,389,317,402,309,411,301,399,291,394,273,403,273,416,281,423,282,433,288,446,289,454,290,465,291,478,290,475,297,474,303,463,311,457,321,455,327,440,323,424,326,385,331,395,333,410,333" title="Bihar"/>
+        <area href="Jharkhand.html" shape="poly" coords="377,349,389,345,402,348,413,348,426,347,441,343,453,337,462,338,472,323,477,330,475,343,464,344,453,351,439,353,432,365,434,375,440,379,453,385,435,385,429,393,417,387,403,389,404,377,399,367,386,356" title="Jharkhand"/>
+        <area href="WestBengal.html" shape="poly" coords="448,369,456,373,460,381,465,393,473,403,484,405,491,397,501,396,463,361,477,360,485,348,487,333,484,317,489,300,490,280,495,269,507,273,517,276,519,283,503,280,494,311,496,341,500,353,499,362,504,375,507,389" title="West Bengal"/>
+        <area href="Sikkim.html" shape="poly" coords="483,257,489,248,497,248,494,257" title="Sikkim"/>
     </map>
 </body>
 </html>
