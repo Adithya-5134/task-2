@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,53 +22,143 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Maharashtra</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Gateway_of_India.jpg" alt="Gateway of India">
-        <p><i>Gateway of India</i></p>
-        
+
+        <img src="images/temp_16.jpg" >
+        <p><i>Gateway of India – Iconic Landmark of Mumbai</i></p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
-            <li><strong>Area:</strong> 3,07,713 Sq. Kms</li>
-            <li><strong>Capital:</strong> Mumbai</li>
-            <li><strong>Language:</strong> Marathi, Hindi</li>
-            <li><strong>Population:</strong> 11,23,74,333</li>
-            <li><strong>Famous for:</strong> Bollywood, Historical Forts, Ajanta & Ellora Caves, Ganesh Chaturthi, Lavani Dance, Elephanta Caves, Western Ghats, Marine Drive, Tadoba National Park, Kolhapuri Chappals, Paithani Sarees, Vada Pav</li>
-            <li><strong>Major Cities:</strong> Mumbai, Pune, Nagpur, Nashik</li>
+            <li><b>Area:</b> 3,07,713 Sq. Kms</li>
+            <li><b>Capital:</b> Mumbai</li>
+            <li><b>Language:</b> Marathi, Hindi</li>
+            <li><b>Population:</b> 11,23,74,333</li>
+            <li><b>Famous for:</b> Bollywood, Historical Forts, Ajanta & Ellora Caves, Ganesh Chaturthi, Lavani Dance, Elephanta Caves, Western Ghats, Marine Drive, Tadoba National Park, Kolhapuri Chappals, Paithani Sarees, Vada Pav</li>
+            <li><b>Major Cities:</b> Mumbai, Pune, Nagpur, Nashik</li>
         </ul>
-        <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Ajanta_Caves.jpg" alt="Ajanta Caves">
-        <p><i>Ajanta Caves</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Chhatrapati_Shivaji_Terminus_%28VT%29.jpg" alt="Chhatrapati Shivaji Terminus">
-        <p><i>Chhatrapati Shivaji Terminus</i></p>
-
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Shaniwarwada_Pune.JPG" alt="Shaniwar Wada">
-        <p><i>Shaniwar Wada, Pune</i></p>
-
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Marine_Drive_Night_View.jpg" alt="Marine Drive">
-        <p><i>Marine Drive, Mumbai</i></p>
 
         <hr>
+
+        <h2>Economic & Industrial Hub</h2>
+        <div class="content">
+            <p>Maharashtra is India’s most industrialized state and contributes **over 15%** to the national GDP. Mumbai, the financial capital, houses the **Bombay Stock Exchange (BSE)** and major corporate hubs.</p>
+            <p>The state leads in **agriculture, manufacturing, and IT** sectors, with cities like **Pune** being a major IT and automotive hub.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>The state has a **rich Maratha legacy** with legendary rulers like **Chhatrapati Shivaji Maharaj**, who established the Maratha Empire.</p>
+            <p>Forts like **Raigad, Pratapgad, and Sinhagad** showcase Maratha valor, while ancient Buddhist sites like **Ajanta & Ellora Caves** are UNESCO World Heritage Sites.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Heritage</h2>
+        <div class="content">
+            <p>Maharashtra's culture is a mix of tradition and modernity.</p>
+            <ul>
+                <li><b>Folk Arts:</b> Lavani and Tamasha dance forms.</li>
+                <li><b>Festivals:</b> **Ganesh Chaturthi** is the biggest festival, celebrated grandly across the state.</li>
+                <li><b>Cuisine:</b> Famous dishes include **Vada Pav, Misal Pav, Puran Poli, and Pav Bhaji**.</li>
+                <li><b>Textiles:</b> **Paithani Sarees and Kolhapuri Chappals** are famous worldwide.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Ajanta & Ellora Caves:</b> Ancient Buddhist rock-cut caves.</li>
+                <li><b>Gateway of India:</b> Iconic Mumbai landmark.</li>
+                <li><b>Marine Drive:</b> Beautiful seaside promenade in Mumbai.</li>
+                <li><b>Shaniwar Wada:</b> Historic fort in Pune.</li>
+                <li><b>Matheran & Lonavala:</b> Scenic hill stations.</li>
+                <li><b>Tadoba National Park:</b> Famous for tiger sightings.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Mumbai is India’s **wealthiest city**, home to the most billionaires.</li>
+                <li>Maharashtra has **the most UNESCO World Heritage Sites** in India.</li>
+                <li>Pune is called the **"Oxford of the East"** due to its many educational institutions.</li>
+                <li>Bollywood, India’s film industry, is based in Mumbai.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
             <a href='index.html'>Back to India Map</a>
         </div>
