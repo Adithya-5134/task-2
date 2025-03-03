@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,10 +22,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
             margin-top: 10px;
+            height: auto;
         }
         ul {
             text-align: left;
@@ -31,16 +35,27 @@
         hr {
             margin: 20px 0;
         }
+        .content {
+            text-align: justify;
+            padding: 0 10px;
+        }
         .footer {
             margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Andhra Pradesh</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Tirupati_Temple.jpg" alt="Tirupati Temple">
-        <p><i>Tirupati Balaji Temple</i></p>
+        
+        <img src="images/temp2.jpg" >
+        <p><i>A glimpse of Andhra Pradesh's heritage</i></p>
         
         <hr>
         <ul>
@@ -52,13 +67,15 @@
             <li><strong>Major Cities:</strong> Visakhapatnam, Vijayawada, Guntur, Nellore, Kurnool</li>
         </ul>
         <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/R_K_Beach.jpg" alt="RK Beach">
-        <p><i>RK Beach, Visakhapatnam</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Gandikota_Fort.jpg" alt="Gandikota">
-        <p><i>Gandikota, The Grand Canyon of India</i></p>
-        
+
+        <div class="content">
+            <h2>Importance of Andhra Pradesh</h2>
+            <p>Andhra Pradesh is a key state in South India known for its rich cultural heritage, economic significance, and natural beauty. It is a major contributor to India's agriculture, being one of the largest producers of rice. The state is also famous for its flourishing **IT and industrial sectors**, especially in **Visakhapatnam and Vijayawada**. The Telugu Film Industry, popularly known as Tollywood, is based in Andhra Pradesh and is the second-largest film industry in India.</p>
+
+            <h2>Historical Significance</h2>
+            <p>The history of Andhra Pradesh dates back to the Mauryan Empire, followed by powerful dynasties such as the **Satavahanas, Pallavas, Chalukyas, and Kakatiyas**. The region is home to some of the finest architectural wonders, including the **Tirupati Balaji Temple**, one of the world's richest and most visited temples. The ancient city of Amaravati, once a Buddhist center, reflects the deep-rooted cultural heritage of the state.</p>
+        </div>
+
         <hr>
         <div class="footer">
             <a href='index.html'>Back to India Map</a>
