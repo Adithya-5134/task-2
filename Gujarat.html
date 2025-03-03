@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,10 +22,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
             margin-top: 10px;
+            height: auto;
         }
         ul {
             text-align: left;
@@ -31,17 +35,28 @@
         hr {
             margin: 20px 0;
         }
+        .content {
+            text-align: justify;
+            padding: 0 10px;
+        }
         .footer {
             margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Gujarat</h1>
+
         <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Somnath_temple.jpg" alt="Somnath Temple">
-        <p><i>Somnath Temple, Gujarat</i></p>
-        
+        <p><i>Somnath Temple – One of the 12 Jyotirlingas of Lord Shiva</i></p>
+
         <hr>
         <ul>
             <li><strong>Area:</strong> 1,96,024 Sq. Kms</li>
@@ -52,20 +67,46 @@
             <li><strong>Major Cities:</strong> Ahmedabad, Surat, Vadodara, Rajkot</li>
         </ul>
         <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Rann_of_Kutch.jpg" alt="Rann of Kutch">
-        <p><i>Rann of Kutch, Gujarat</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Gir_lion.jpg" alt="Asiatic Lion in Gir National Park">
-        <p><i>Asiatic Lion in Gir National Park</i></p>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Statue_of_Unity.jpg" alt="Statue of Unity">
-        <p><i>Statue of Unity, Gujarat</i></p>
+        <div class="content">
+            <h2>Historical Significance</h2>
+            <p>Gujarat has a history dating back to the **Indus Valley Civilization**, with **Dholavira and Lothal** being two of its major sites. Lothal is one of the world's earliest **dockyards**, showcasing Gujarat's maritime trade links as early as **2400 BCE**.</p>
+            <p>During the **Maurya and Gupta periods**, Gujarat was a key trade and cultural hub. In medieval times, **the Chalukyas, Solankis, and Mughals** ruled the region, contributing to its architectural and cultural heritage.</p>
+            <p>It was also a major center for India's **freedom movement**, as **Mahatma Gandhi** was born here in **Porbandar**. The famous **Dandi March (1930)**, which was a key moment in India's independence struggle, started from **Sabarmati Ashram** in Ahmedabad.</p>
 
-        <hr>
-        <div class="footer">
-            <a href='index.html'>Back to India Map</a>
-        </div>
-    </div>
-</body>
-</html>
+            <h2>Important Historical Sites</h2>
+            <ul>
+                <li><strong>Somnath Temple:</strong> One of the **12 Jyotirlingas** of Lord Shiva, destroyed and rebuilt multiple times in history.</li>
+                <li><strong>Dwarkadhish Temple:</strong> A sacred Hindu temple dedicated to **Lord Krishna**, believed to be over 2,000 years old.</li>
+                <li><strong>Dholavira:</strong> A well-preserved **Harappan city**, showcasing advanced urban planning.</li>
+                <li><strong>Rani ki Vav (UNESCO World Heritage Site):</strong> A **beautiful stepwell** built in the 11th century, known for its intricate carvings.</li>
+                <li><strong>Champaner-Pavagadh Archaeological Park:</strong> A UNESCO World Heritage Site, showcasing **forts, mosques, and palaces** from the **15th and 16th centuries**.</li>
+            </ul>
+
+            <h2>Cultural Importance</h2>
+            <p>Gujarat is known for its **vibrant culture**, with dance, music, and festivals being an integral part of its identity.</p>
+            <p>Some of the most significant cultural aspects include:</p>
+            <ul>
+                <li><strong>Garba & Dandiya Raas:</strong> Traditional Gujarati dances performed during **Navratri**, the longest dance festival in the world.</li>
+                <li><strong>Gujarat Handicrafts:</strong> Famous for **Bandhani (tie-dye), Patola sarees, Kutch embroidery, and block printing**.</li>
+                <li><strong>Gujarati Cuisine:</strong> Known for **Dhokla, Thepla, Fafda, Undhiyu, and Gujarati Thali**, which features a mix of sweet and savory dishes.</li>
+                <li><strong>International Kite Festival:</strong> Celebrated in January, this festival attracts kite flyers from across the world.</li>
+                <li><strong>Modhera Sun Temple Festival:</strong> A cultural festival held at the **11th-century Sun Temple in Modhera**, featuring classical dance performances.</li>
+            </ul>
+
+            <h2>Natural Beauty & Wildlife</h2>
+            <p>Gujarat is home to unique landscapes, from the **Great Rann of Kutch**, the **largest salt desert**, to **Gir National Park**, the only habitat of the **Asiatic Lion**.</p>
+            <ul>
+                <li><strong>Gir National Park:</strong> The **last refuge of the Asiatic Lion**.</li>
+                <li><strong>Rann of Kutch:</strong> A mesmerizing white salt desert, famous for the **Rann Utsav**.</li>
+                <li><strong>Blackbuck National Park (Velavadar):</strong> Home to the **rare blackbuck antelope**.</li>
+                <li><strong>Saputara Hill Station:</strong> Gujarat’s only **hill station**, offering a cool retreat.</li>
+            </ul>
+
+            <h2>Economic & Tourism Significance</h2>
+            <p>Gujarat is one of India's most **industrialized states**, contributing significantly to India's **trade, agriculture, and manufacturing**.</p>
+            <p>Major industries include:</p>
+            <ul>
+                <li><strong>Diamond Industry:</strong> Surat is the **world's largest diamond cutting and polishing hub**.</li>
+                <li><strong>Textiles:</strong> Ahmedabad is known as the **"Manchester of India"** due to its textile industry.</li>
+                <li><strong>Petroleum & Chemicals:</strong
