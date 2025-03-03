@@ -13,7 +13,7 @@
             padding: 0;
         }
         .container {
-            width: 90%;
+            width: 95%;
             max-width: 800px;
             margin: auto;
             background: white;
@@ -25,27 +25,60 @@
             width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
             height: auto;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
+            list-style-type: none;
         }
-        hr {
-            margin: 20px 0;
+        ul li {
+            margin-bottom: 10px;
         }
         .content {
             text-align: justify;
-            padding: 0 10px;
+            padding: 10px;
+        }
+        hr {
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
         }
         @media (max-width: 600px) {
             .container {
-                width: 95%;
+                width: 98%;
                 padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
             }
         }
     </style>
@@ -53,32 +86,71 @@
 <body>
     <div class="container">
         <h1>Tamil Nadu</h1>
-        
-        <img src="images/temp1.jpg" >
+
+        <img src="images/temp1.jpg">
         <p><i>A glimpse of Tamil Nadu's heritage</i></p>
-        
+
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
-            <li><strong>Area:</strong> 1,30,058 Sq. Kms.</li>
-            <li><strong>Capital:</strong> Chennai</li>
-            <li><strong>Language:</strong> Tamil</li>
-            <li><strong>Population:</strong> 7,21,47,030</li>
-            <li><strong>Famous for:</strong> Temples, Classical Dance (Bharatanatyam), Carnatic Music, Literature, Industries</li>
-            <li><strong>Major Cities:</strong> Chennai, Coimbatore, Madurai, Trichy, Salem</li>
+            <li><b>Area:</b> 1,30,058 Sq. Kms</li>
+            <li><b>Capital:</b> Chennai</li>
+            <li><b>Language:</b> Tamil</li>
+            <li><b>Population:</b> 7,21,47,030</li>
+            <li><b>Famous for:</b> Temples, Classical Dance (Bharatanatyam), Carnatic Music, Literature, Industries</li>
+            <li><b>Major Cities:</b> Chennai, Coimbatore, Madurai, Trichy, Salem</li>
         </ul>
+
         <hr>
 
+        <h2>Geographical and Economic Importance</h2>
         <div class="content">
-            <h2>Importance of Tamil Nadu</h2>
-            <p>Tamil Nadu is one of the most culturally and economically significant states in India. It is home to a rich tradition of classical arts, literature, and temple architecture. The state plays a vital role in India's economy with industries like automobile manufacturing, textiles, IT, and agriculture. Chennai, the capital city, is known as the 'Detroit of India' for its automobile production.</p>
-
-            <h2>Historical Significance</h2>
-            <p>The history of Tamil Nadu dates back thousands of years, with its roots in the ancient Sangam period. The region was ruled by great dynasties such as the Cholas, Pandyas, and Pallavas, who contributed significantly to art, literature, and temple architecture. The Brihadeeswarar Temple in Thanjavur, a UNESCO World Heritage Site, stands as a testament to Tamil Nadu's glorious past. Tamil, one of the world's oldest languages, continues to thrive here.</p>
+            <p>Tamil Nadu is located in the southern part of India, bordered by the Bay of Bengal. It has a diverse landscape, ranging from coastal plains to the Western Ghats. The state's economy is driven by <b>industries like automobile manufacturing, textiles, IT, and agriculture</b>. Chennai, the capital city, is known as the <b>'Detroit of India'</b> due to its large automobile industry.</p>
         </div>
 
         <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Tamil Nadu has a deep-rooted history, dating back to the <b>Sangam period</b>. The region was ruled by powerful dynasties like the <b>Cholas, Pandyas, and Pallavas</b>, who built magnificent temples and contributed to Tamil literature. The <b>Brihadeeswarar Temple</b> in Thanjavur, a UNESCO World Heritage Site, showcases the architectural brilliance of the Chola dynasty.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>Tamil Nadu is the birthplace of <b>Bharatanatyam</b>, one of the oldest classical dance forms in India. The state is also famous for <b>Carnatic music</b> and hosts the <b>Chennai Music Season</b>, one of the world's largest cultural festivals. Tamil, one of the world's oldest languages, continues to thrive, with a vast body of classical literature.</p>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Meenakshi Temple (Madurai):</b> A famous temple known for its stunning architecture.</li>
+                <li><b>Marina Beach (Chennai):</b> The second-longest urban beach in the world.</li>
+                <li><b>Ooty:</b> A beautiful hill station in the Nilgiris.</li>
+                <li><b>Brihadeeswarar Temple (Thanjavur):</b> A UNESCO World Heritage Site.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Tamil Nadu is home to the <b>largest number of temples</b> in India.</li>
+                <li>Chennai’s <b>Marina Beach</b> is one of the world’s longest beaches.</li>
+                <li>Tamil Nadu is the <b>second-largest economy</b> among Indian states.</li>
+                <li>The state has India's <b>highest urbanization rate</b> among major states.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
-            <a href='index.html'>Back to India Map</a>
+            <a href="index.html">Back to India Map</a>
         </div>
     </div>
 </body>
