@@ -13,93 +13,153 @@
             padding: 0;
         }
         .container {
-            width: 90%;
-            max-width: 600px;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
-            padding: 15px;
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
             width: 100%;
+            max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
         }
         h1 {
-            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 10px;
         }
-        p {
-            text-align: justify;
-            font-size: 16px;
-            line-height: 1.5;
-            margin: 10px 0;
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
             padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
-            text-align: center;
+            font-size: 1em;
         }
         .footer a {
             text-decoration: none;
-            font-weight: bold;
             color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1><b>Nagaland</b></h1>
+
         <img src="images/temp_20.jpeg">
         <p><i>Kohima - The capital of Nagaland</i></p>
 
         <hr>
 
-        <h2><b>General Information</b></h2>
+        <h2><b>Quick Facts</b></h2>
         <ul>
             <li><b>Area:</b> 16,579 Sq. Kms</li>
             <li><b>Capital:</b> Kohima</li>
             <li><b>Language:</b> English, Nagamese</li>
             <li><b>Population:</b> 1,978,502</li>
+            <li><b>Famous for:</b> Hornbill Festival, Tribal Culture, Handicrafts, Scenic Hills</li>
             <li><b>Major Cities:</b> Kohima, Dimapur, Mokokchung</li>
         </ul>
 
         <hr>
 
-        <h2><b>Importance of Nagaland</b></h2>
-        <p>Nagaland, known as the <b>"Land of Festivals"</b>, is a state rich in tribal culture, history, and biodiversity. It plays a crucial role in India's **northeastern connectivity and cultural heritage**.</p>
+        <h2><b>Geographical and Economic Importance</b></h2>
+        <div class="content">
+            <p>Nagaland, known as the <b>Land of Festivals</b>, is a state rich in <b>tribal culture, biodiversity, and traditional crafts</b>. It plays a key role in <b>northeastern connectivity</b>, linking India to Myanmar.</p>
+            <p>The economy primarily depends on <b>agriculture, handicrafts, and tourism</b>. The state is known for its production of <b>bamboo products, organic farming, and spices</b>.</p>
+        </div>
 
-        <h2><b>Cultural Significance</b></h2>
-        <p>Nagaland is home to **16 major tribes**, each with unique traditions. The state is famous for the **Hornbill Festival**, which showcases traditional Naga dances, music, and handicrafts. The people of Nagaland are known for their **handwoven textiles, bamboo crafts, and wood carvings**.</p>
+        <hr>
 
         <h2><b>Historical Significance</b></h2>
-        <p>Nagaland played a major role in **World War II**, especially during the **Battle of Kohima**. The **Kohima War Cemetery** stands as a tribute to soldiers who fought in the battle. The state officially attained **statehood in 1963**, becoming the 16th state of India.</p>
+        <div class="content">
+            <p>Nagaland played a crucial role in <b>World War II</b>, particularly during the <b>Battle of Kohima</b>. The famous <b>Kohima War Cemetery</b> stands as a tribute to fallen soldiers.</p>
+            <p>The state officially attained <b>statehood in 1963</b>, becoming the <b>16th state</b> of India.</p>
+        </div>
+
+        <hr>
+
+        <h2><b>Cultural Significance</b></h2>
+        <div class="content">
+            <p>Nagaland is home to <b>16 major tribes</b>, each with unique traditions. The <b>Hornbill Festival</b> is the most famous cultural event, celebrating <b>tribal dances, music, and craftsmanship</b>.</p>
+            <p>The people of Nagaland are known for their <b>handwoven textiles, bamboo crafts, and wood carvings</b>.</p>
+        </div>
+
+        <hr>
 
         <h2><b>Tourist Attractions</b></h2>
-        <p>Some of Nagaland's most famous destinations include:</p>
-        <ul>
-            <li><b>Kohima War Cemetery:</b> A historic memorial for World War II soldiers.</li>
-            <li><b>Dzukou Valley:</b> A stunning valley known for its seasonal flowers and trekking.</li>
-            <li><b>Khonoma Village:</b> A historic village known for its warrior legacy and conservation efforts.</li>
-            <li><b>Dimapur:</b> The largest city and a major commercial hub of Nagaland.</li>
-        </ul>
+        <div class="content">
+            <ul>
+                <li><b>Kohima War Cemetery:</b> A memorial dedicated to World War II soldiers.</li>
+                <li><b>Dzukou Valley:</b> A breathtaking valley known for its seasonal flowers and trekking.</li>
+                <li><b>Khonoma Village:</b> A historic village famous for its warrior legacy and conservation efforts.</li>
+                <li><b>Dimapur:</b> The largest city and a major commercial hub of Nagaland.</li>
+            </ul>
+        </div>
 
-        <h2><b>Economic Importance</b></h2>
-        <p>Nagaland's economy is primarily based on <b>agriculture, handloom industries, and tourism</b>. The state is known for its production of **bamboo products, spices, and organic farming**.</p>
+        <hr>
 
         <h2><b>Unique Cuisine</b></h2>
-        <p>Nagaland is famous for its **spicy and smoky dishes**, including:</p>
-        <ul>
-            <li><b>Smoked Pork:</b> A signature dish enjoyed across the state.</li>
-            <li><b>Axone (Fermented Soybeans):</b> Used in many traditional Naga dishes.</li>
-            <li><b>Bamboo Shoot Curry:</b> A flavorful dish made from bamboo shoots.</li>
-        </ul>
+        <div class="content">
+            <ul>
+                <li><b>Smoked Pork:</b> A signature dish enjoyed across the state.</li>
+                <li><b>Axone (Fermented Soybeans):</b> A unique ingredient used in Naga dishes.</li>
+                <li><b>Bamboo Shoot Curry:</b> A flavorful dish made from fresh bamboo shoots.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2><b>Interesting Facts</b></h2>
+        <div class="content">
+            <ul>
+                <li>Nagaland has <b>one of the highest tribal population ratios</b> in India.</li>
+                <li>It is known for the <b>fierce headhunter warrior tribes</b> of the past.</li>
+                <li>The state has <b>one of India's highest literacy rates</b>.</li>
+                <li>The <b>Hornbill Festival</b> is called the <b>"Festival of Festivals"</b>.</li>
+            </ul>
+        </div>
 
         <hr>
 
