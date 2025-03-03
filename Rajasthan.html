@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,52 +22,135 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Rajasthan</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Hawa_Mahal_2011.jpg" alt="Hawa Mahal">
-        <p><i>Hawa Mahal, Jaipur</i></p>
-        
-        <hr>
-        <ul>
-            <li><strong>Area:</strong> 3,42,239 Sq. Kms</li>
-            <li><strong>Capital:</strong> Jaipur</li>
-            <li><strong>Language:</strong> Rajasthani, Hindi</li>
-            <li><strong>Population:</strong> 7,82,30,816</li>
-            <li><strong>Famous for:</strong> Desert, Forts, Palaces, Thar Desert, Camel Safaris, Ranthambore National Park, Pushkar Fair, Rajasthani Cuisine</li>
-            <li><strong>Major Cities:</strong> Jaipur, Udaipur, Jodhpur, Jaisalmer</li>
-        </ul>
-        <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Udaipur_City_Palace.jpg" alt="Udaipur City Palace">
-        <p><i>Udaipur City Palace</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Jaisalmer_fort.jpg" alt="Jaisalmer Fort">
-        <p><i>Jaisalmer Fort</i></p>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Mehrangarh_Fort_Rajasthan.jpg" alt="Mehrangarh Fort">
-        <p><i>Mehrangarh Fort</i></p>
-        
+        <img src="images/temp_23.jpg">
+        <p><i>Hawa Mahal - The Palace of Winds in Jaipur</i></p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
+        <ul>
+            <li><b>Area:</b> 3,42,239 Sq. Kms</li>
+            <li><b>Capital:</b> Jaipur</li>
+            <li><b>Language:</b> Rajasthani, Hindi</li>
+            <li><b>Population:</b> 7,82,30,816</li>
+            <li><b>Famous for:</b> Desert, Forts, Palaces, Thar Desert, Camel Safaris, Ranthambore National Park, Pushkar Fair, Rajasthani Cuisine</li>
+            <li><b>Major Cities:</b> Jaipur, Udaipur, Jodhpur, Jaisalmer</li>
+        </ul>
+
+        <hr>
+
+        <h2>Geographical and Economic Importance</h2>
+        <div class="content">
+            <p>Rajasthan is India's largest state by area, home to the vast <b>Thar Desert</b>. It has a significant tourism-driven economy, known for its <b>forts, palaces, and heritage hotels</b>. The state is also rich in <b>mineral resources</b>.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Rajasthan was historically ruled by Rajput kings and is famous for its <b>heroic tales of valor</b>. The state has magnificent forts like <b>Mehrangarh, Chittorgarh, and Jaisalmer Fort</b>, which stand as symbols of its glorious past.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>Rajasthan has a vibrant cultural heritage, known for <b>folk dances like Ghoomar</b>, <b>puppet shows</b>, and <b>traditional Rajasthani attire</b>. The cuisine includes famous dishes like <b>Dal Baati Churma</b> and <b>Laal Maas</b>.</p>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Jaipur:</b> The Pink City, famous for Hawa Mahal and Amber Fort.</li>
+                <li><b>Udaipur:</b> Known as the City of Lakes, home to City Palace.</li>
+                <li><b>Jaisalmer:</b> The Golden City, famous for its desert safari and Jaisalmer Fort.</li>
+                <li><b>Ranthambore:</b> A wildlife sanctuary known for Bengal tigers.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Rajasthan has India's <b>largest desert</b>, the Thar Desert.</li>
+                <li>The state has the most number of <b>UNESCO World Heritage sites</b> in India.</li>
+                <li>Pushkar is home to the <b>only Brahma temple</b> in the world.</li>
+                <li>Mehrangarh Fort has appeared in many <b>Hollywood and Bollywood movies</b>.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
-            <a href='index.html'>Back to India Map</a>
+            <a href="index.html">Back to India Map</a>
         </div>
     </div>
 </body>
