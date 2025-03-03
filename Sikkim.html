@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,52 +22,135 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Sikkim</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Kanchenjunga_Mountain.jpg" alt="Kanchenjunga Mountain">
-        <p><i>Kanchenjunga Mountain</i></p>
-        
+
+        <img src="images/temp_24.jpg">
+        <p><i>Kanchenjunga - The Third Highest Mountain in the World</i></p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
-            <li><strong>Area:</strong> 7,096 Sq. Kms</li>
-            <li><strong>Capital:</strong> Gangtok</li>
-            <li><strong>Language:</strong> Nepali, Bhutia, Lepcha, Hindi, English</li>
-            <li><strong>Population:</strong> 6,10,577</li>
-            <li><strong>Famous for:</strong> Kanchenjunga, Nathula Pass, Yumthang Valley, Rumtek Monastery, Organic Farming</li>
-            <li><strong>Major Cities:</strong> Gangtok, Namchi, Geyzing, Mangan</li>
+            <li><b>Area:</b> 7,096 Sq. Kms</li>
+            <li><b>Capital:</b> Gangtok</li>
+            <li><b>Language:</b> Nepali, Bhutia, Lepcha, Hindi, English</li>
+            <li><b>Population:</b> 6,10,577</li>
+            <li><b>Famous for:</b> Kanchenjunga, Nathula Pass, Yumthang Valley, Rumtek Monastery, Organic Farming</li>
+            <li><b>Major Cities:</b> Gangtok, Namchi, Geyzing, Mangan</li>
         </ul>
-        <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Nathula_Pass.jpg" alt="Nathula Pass">
-        <p><i>Nathula Pass</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Yumthang_Valley.jpg" alt="Yumthang Valley">
-        <p><i>Yumthang Valley</i></p>
-
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Rumtek_Monastery.jpg" alt="Rumtek Monastery">
-        <p><i>Rumtek Monastery</i></p>
 
         <hr>
+
+        <h2>Geographical and Economic Importance</h2>
+        <div class="content">
+            <p>Sikkim is a small but significant state in Northeast India, sharing borders with <b>Nepal, Bhutan, and Tibet</b>. It is the <b>least populous and second smallest state in India</b>. The economy is mainly based on <b>tourism and organic farming</b>, making it India's first fully organic state.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Sikkim was an independent kingdom until <b>1975</b> when it became the <b>22nd state of India</b>. It has a rich history influenced by Buddhist culture, with important monasteries like <b>Rumtek Monastery</b>.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>Sikkim has a diverse culture with influences from <b>Tibetan Buddhism</b>. Festivals like <b>Losar, Saga Dawa, and Pang Lhabsol</b> are celebrated with great enthusiasm. The state is also known for its <b>traditional dances like the Mask Dance</b>.</p>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Gangtok:</b> The vibrant capital city with MG Marg and Buddhist monasteries.</li>
+                <li><b>Nathula Pass:</b> A high-altitude mountain pass connecting India and China.</li>
+                <li><b>Yumthang Valley:</b> Known as the 'Valley of Flowers' of the East.</li>
+                <li><b>Rumtek Monastery:</b> One of the most important Tibetan Buddhist monasteries.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Sikkim is the <b>first 100% organic state</b> in India.</li>
+                <li>It has the <b>highest per capita income</b> in Northeast India.</li>
+                <li>It is home to India's <b>highest mountain, Kanchenjunga</b>.</li>
+                <li>Sikkim has a <b>100% literate workforce</b> with high human development.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
-            <a href='index.html'>Back to India Map</a>
+            <a href="index.html">Back to India Map</a>
         </div>
     </div>
 </body>
