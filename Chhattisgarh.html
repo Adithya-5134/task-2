@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,10 +22,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
             margin-top: 10px;
+            height: auto;
         }
         ul {
             text-align: left;
@@ -31,17 +35,28 @@
         hr {
             margin: 20px 0;
         }
+        .content {
+            text-align: justify;
+            padding: 0 10px;
+        }
         .footer {
             margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Chhattisgarh</h1>
+
         <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Chitrakote_Falls.jpg" alt="Chitrakote Waterfalls">
-        <p><i>Chitrakote Waterfalls, Bastar</i></p>
-        
+        <p><i>Chitrakote Waterfalls, 'Niagara of India'</i></p>
+
         <hr>
         <ul>
             <li><strong>Area:</strong> 1,35,192 Sq. Kms</li>
@@ -52,16 +67,17 @@
             <li><strong>Major Cities:</strong> Raipur, Bilaspur, Durg, Bhilai, Korba</li>
         </ul>
         <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Bastar_Tribal_Dance.jpg" alt="Bastar Tribal Dance">
-        <p><i>Bastar Tribal Dance</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Mahant_Ghasi_Memorial_Museum_Raipur.jpg" alt="Mahant Ghasi Memorial Museum">
-        <p><i>Mahant Ghasi Memorial Museum, Raipur</i></p>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Bhoramdeo_Temple.jpg" alt="Bhoramdeo Temple">
-        <p><i>Bhoramdeo Temple, 'Khajuraho of Chhattisgarh'</i></p>
-        
+        <div class="content">
+            <h2>Cultural Heritage & Nature</h2>
+            <p>Chhattisgarh is home to **diverse tribal communities** that have preserved their traditions for centuries. The **Bastar Tribal Dance** is an integral part of festivals and celebrations.</p>
+            
+            <p>Nicknamed the **'Rice Bowl of India'**, Chhattisgarh is also famous for its lush green landscapes, dense forests, and scenic waterfalls, including **Chitrakote Falls**, often compared to Niagara Falls.</p>
+
+            <h2>Historical & Religious Importance</h2>
+            <p>Chhattisgarh boasts some of India’s **oldest temples**. The **Bhoramdeo Temple**, often called the **'Khajuraho of Chhattisgarh'**, showcases intricate carvings. The **Danteshwari Temple**, dedicated to Goddess Danteshwari, is one of the **Shakti Peethas** and attracts thousands of pilgrims.</p>
+        </div>
+
         <hr>
         <div class="footer">
             <a href='index.html'>Back to India Map</a>
