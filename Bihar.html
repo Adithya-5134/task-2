@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,10 +22,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
             margin-top: 10px;
+            height: auto;
         }
         ul {
             text-align: left;
@@ -31,17 +35,28 @@
         hr {
             margin: 20px 0;
         }
+        .content {
+            text-align: justify;
+            padding: 0 10px;
+        }
         .footer {
             margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Bihar</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Mahabodhi_Temple%2C_Bodh_Gaya.jpg" alt="Mahabodhi Temple">
-        <p><i>Mahabodhi Temple, Bodh Gaya</i></p>
-        
+
+        <img src="images/temp5.jpg">
+        <p><i>Mahabodhi Temple, a UNESCO World Heritage Site</i></p>
+
         <hr>
         <ul>
             <li><strong>Area:</strong> 94,163 Sq. Kms</li>
@@ -52,15 +67,14 @@
             <li><strong>Major Cities:</strong> Patna, Gaya, Bhagalpur, Muzaffarpur</li>
         </ul>
         <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Nalanda_University_ruins.jpg" alt="Nalanda University">
-        <p><i>Ruins of Nalanda University</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Vikramshila_University_Remains.jpg" alt="Vikramshila University">
-        <p><i>Vikramshila University</i></p>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Chhath_Puja_in_Bihar.jpg" alt="Chhath Puja">
-        <p><i>Chhath Puja Celebrations</i></p>
+        <div class="content">
+            <h2>Significance of Bihar</h2>
+            <p>Bihar is considered the **cradle of Indian civilization**. It was home to two major empires, the **Maurya Empire** (led by Emperor Ashoka) and the **Gupta Empire**, which contributed to India's Golden Age. Bihar is also where **Buddhism** originated, as Lord Buddha attained enlightenment in **Bodh Gaya**.</p>
+
+            <h2>Historical Importance</h2>
+            <p>Bihar housed two of the world's **most prestigious universities**—**Nalanda University** and **Vikramshila University**, which attracted scholars from China, Korea, and Central Asia. The ruins of these universities are a testament to Bihar’s rich educational history.</p>
+        </div>
 
         <hr>
         <div class="footer">
