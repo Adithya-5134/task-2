@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,50 +22,142 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Meghalaya</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Living_Root_Bridge_Meghalaya.jpg" alt="Living Root Bridge">
-        <p><i>Living Root Bridge</i></p>
-        
+
+        <img src="images/temp_18.jpg" >
+        <p><i>Living Root Bridge – A marvel of natural engineering</i></p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
-            <li><strong>Area:</strong> 22,429 Sq. Kms</li>
-            <li><strong>Capital:</strong> Shillong</li>
-            <li><strong>Language:</strong> Khasi, Garo, English</li>
-            <li><strong>Population:</strong> 3,366,710</li>
-            <li><strong>Famous for:</strong> Living Root Bridges, Cherrapunji, Mawsynram, Umiam Lake, Nokrek National Park, Waterfalls</li>
-            <li><strong>Major Cities:</strong> Shillong, Tura, Jowai</li>
+            <li><b>Area:</b> 22,429 Sq. Kms</li>
+            <li><b>Capital:</b> Shillong</li>
+            <li><b>Language:</b> Khasi, Garo, English</li>
+            <li><b>Population:</b> 3,366,710</li>
+            <li><b>Famous for:</b> Living Root Bridges, Cherrapunji, Mawsynram, Umiam Lake, Nokrek National Park, Waterfalls</li>
+            <li><b>Major Cities:</b> Shillong, Tura, Jowai</li>
         </ul>
-        <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Cherrapunji_waterfalls.jpg" alt="Cherrapunji Waterfalls">
-        <p><i>Cherrapunji Waterfalls</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Umiam_Lake.jpg" alt="Umiam Lake">
-        <p><i>Umiam Lake</i></p>
-
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Nohkalikai_Waterfalls.jpg" alt="Nohkalikai Falls">
-        <p><i>Nohkalikai Falls</i></p>
 
         <hr>
+
+        <h2>Geographical & Economic Importance</h2>
+        <div class="content">
+            <p>Meghalaya, meaning "<b>Abode of Clouds</b>," is a state of breathtaking landscapes, lush green hills, and abundant rainfall. It is home to <b>Cherrapunji and Mawsynram</b>, two of the wettest places on Earth.</p>
+            <p>The economy is primarily based on <b>agriculture, tourism, and forestry</b>. The state is known for its <b>coal and limestone reserves</b>, as well as its rich biodiversity.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Meghalaya was a part of Assam until it became a full-fledged state in <b>1972</b>. The Khasi, Garo, and Jaintia tribes have a distinct history, maintaining their traditional governance systems.</p>
+            <p>During British rule, Shillong served as the <b>capital of Assam</b> and was an important colonial administrative center.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>Meghalaya is home to a unique mix of cultures, particularly those of the <b>Khasi, Jaintia, and Garo</b> tribes, each with its own language, customs, and traditions.</p>
+            <ul>
+                <li><b>Shad Suk Mynsiem:</b> A vibrant Khasi spring festival celebrating nature and life.</li>
+                <li><b>Wangala Festival:</b> A post-harvest celebration of the Garo tribe.</li>
+                <li><b>Iawbei System:</b> A unique matrilineal inheritance system where lineage is traced through the mother.</li>
+                <li><b>Traditional Music & Dance:</b> Features drums, bamboo instruments, and folk songs.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Cherrapunji:</b> Famous for its rainfall, caves, and waterfalls.</li>
+                <li><b>Mawsynram:</b> The wettest place on Earth, known for its beautiful landscapes.</li>
+                <li><b>Umiam Lake:</b> A picturesque man-made reservoir near Shillong.</li>
+                <li><b>Nohkalikai Falls:</b> India's tallest plunge waterfall.</li>
+                <li><b>Balpakram National Park:</b> A biodiversity hotspot, often called the "Land of Spirits" by locals.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Meghalaya follows a <b>matrilineal society</b>, where property and lineage are passed through women.</li>
+                <li>It is home to <b>Asia’s cleanest village</b>, Mawlynnong.</li>
+                <li>The state has numerous natural limestone caves, including the <b>Siju and Mawsmai Caves</b>.</li>
+                <li>Shillong is known as the <b>"Scotland of the East"</b> due to its rolling hills and pleasant climate.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
             <a href='index.html'>Back to India Map</a>
         </div>
