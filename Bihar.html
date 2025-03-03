@@ -25,27 +25,54 @@
             width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
             height: auto;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.2em;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
         }
         hr {
             margin: 20px 0;
+            border: 0.5px solid #ccc;
         }
         .content {
             text-align: justify;
-            padding: 0 10px;
+            padding: 0 15px;
+            font-size: 1em;
+            line-height: 1.6;
         }
         .footer {
             margin-top: 20px;
+        }
+        .footer a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #007BFF;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
         }
         @media (max-width: 600px) {
             .container {
                 width: 95%;
                 padding: 15px;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 8px;
+            }
+            .footer a {
+                font-size: 0.9em;
+                padding: 8px 12px;
             }
         }
     </style>
@@ -58,6 +85,8 @@
         <p><i>Mahabodhi Temple, a UNESCO World Heritage Site</i></p>
 
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
             <li><strong>Area:</strong> 94,163 Sq. Kms</li>
             <li><strong>Capital:</strong> Patna</li>
@@ -66,19 +95,25 @@
             <li><strong>Famous for:</strong> Mahabodhi Temple, Nalanda University, Vikramshila, Madhubani Paintings, Chhath Puja, Litti Chokha</li>
             <li><strong>Major Cities:</strong> Patna, Gaya, Bhagalpur, Muzaffarpur</li>
         </ul>
+
         <hr>
 
+        <h2>Significance of Bihar</h2>
         <div class="content">
-            <h2>Significance of Bihar</h2>
-            <p>Bihar is considered the **cradle of Indian civilization**. It was home to two major empires, the **Maurya Empire** (led by Emperor Ashoka) and the **Gupta Empire**, which contributed to India's Golden Age. Bihar is also where **Buddhism** originated, as Lord Buddha attained enlightenment in **Bodh Gaya**.</p>
-
-            <h2>Historical Importance</h2>
-            <p>Bihar housed two of the world's **most prestigious universities**—**Nalanda University** and **Vikramshila University**, which attracted scholars from China, Korea, and Central Asia. The ruins of these universities are a testament to Bihar’s rich educational history.</p>
+            <p>Bihar is considered the <strong>cradle of Indian civilization</strong>. It was home to two major empires, the <strong>Maurya Empire</strong> (led by Emperor Ashoka) and the <strong>Gupta Empire</strong>, which contributed to India's Golden Age. Bihar is also where <strong>Buddhism</strong> originated, as Lord Buddha attained enlightenment in <strong>Bodh Gaya</strong>.</p>
         </div>
 
         <hr>
+
+        <h2>Historical Importance</h2>
+        <div class="content">
+            <p>Bihar housed two of the world's <strong>most prestigious universities</strong>—<strong>Nalanda University</strong> and <strong>Vikramshila University</strong>, which attracted scholars from China, Korea, and Central Asia. The ruins of these universities are a testament to Bihar’s rich educational history.</p>
+        </div>
+
+        <hr>
+
         <div class="footer">
-            <a href='index.html'>Back to India Map</a>
+            <a href="index.html">Back to India Map</a>
         </div>
     </div>
 </body>
