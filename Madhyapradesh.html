@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,50 +22,143 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Madhya Pradesh</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Khajuraho_temples.jpg" alt="Khajuraho Temples">
-        <p><i>Khajuraho Temples</i></p>
-        
-        <hr>
-        <ul>
-            <li><strong>Area:</strong> 3,08,245 Sq. Kms</li>
-            <li><strong>Capital:</strong> Bhopal</li>
-            <li><strong>Language:</strong> Hindi</li>
-            <li><strong>Population:</strong> 8,65,90,000</li>
-            <li><strong>Famous for:</strong> Temples, National Parks, Tribal Culture, Bhimbetka Caves, Marble Rocks (Bhedaghat), Ujjain (Mahakaleshwar Jyotirlinga)</li>
-            <li><strong>Major Cities:</strong> Indore, Bhopal, Gwalior, Jabalpur</li>
-        </ul>
-        <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Kanha_National_Park.jpg" alt="Kanha National Park">
-        <p><i>Kanha National Park</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Sanchi_Stupa.jpg" alt="Sanchi Stupa">
-        <p><i>Sanchi Stupa</i></p>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Bhimbetka_rock_shelters.jpg" alt="Bhimbetka Rock Shelters">
-        <p><i>Bhimbetka Rock Shelters</i></p>
-        
+        <img src="images/temp_15.jpg" 
+        <p><i>Khajuraho Temples – UNESCO World Heritage Site</i></p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
+        <ul>
+            <li><b>Area:</b> 3,08,245 Sq. Kms</li>
+            <li><b>Capital:</b> Bhopal</li>
+            <li><b>Language:</b> Hindi</li>
+            <li><b>Population:</b> 8,65,90,000</li>
+            <li><b>Famous for:</b> Temples, National Parks, Tribal Culture, Bhimbetka Caves, Marble Rocks (Bhedaghat), Ujjain (Mahakaleshwar Jyotirlinga)</li>
+            <li><b>Major Cities:</b> Indore, Bhopal, Gwalior, Jabalpur</li>
+        </ul>
+
+        <hr>
+
+        <h2>Geographical & Economic Importance</h2>
+        <div class="content">
+            <p>Madhya Pradesh, often called the <b>Heart of India</b>, is rich in <b>forests, rivers, and mineral resources</b>. It has a diverse landscape, including plateaus, rivers, and hills.</p>
+            <p>It is one of India's leading states in <b>soybean, wheat, and mineral production</b>, contributing significantly to the economy.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Madhya Pradesh has a rich history, with evidence of early human civilization in the <b>Bhimbetka Rock Shelters</b>, dating back 30,000 years.</p>
+            <p>The <b>Khajuraho Temples</b> showcase exquisite sculptures from the Chandela dynasty, and the state has deep connections with Hindu and Buddhist heritage.</p>
+            <p><b>Ujjain</b> is one of India's oldest cities, hosting the famous <b>Mahakaleshwar Jyotirlinga</b> and the grand <b>Kumbh Mela</b> festival.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>The state has a vibrant culture, deeply influenced by its tribal communities and historical legacy.</p>
+            <ul>
+                <li><b>Tribal Heritage:</b> Home to Gond, Bhil, and Baiga tribes, known for their unique traditions.</li>
+                <li><b>Music & Dance:</b> Traditional folk dances like <i>Rai, Matki, and Bhagoria</i> are famous.</li>
+                <li><b>Festivals:</b> Major festivals include <b>Lokrang, Tansen Music Festival, and Kumbh Mela</b>.</li>
+                <li><b>Cuisine:</b> Specialties include <i>Poha, Jalebi, Bhutte Ka Kees, and Dal Bafla</i>.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Khajuraho:</b> Famous for its intricately carved temples.</li>
+                <li><b>Kanha & Bandhavgarh National Parks:</b> Home to tigers and diverse wildlife.</li>
+                <li><b>Sanchi Stupa:</b> A UNESCO World Heritage Buddhist site.</li>
+                <li><b>Bhimbetka Caves:</b> Ancient rock shelters with prehistoric paintings.</li>
+                <li><b>Bhedaghat:</b> Marble Rocks with breathtaking waterfalls.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Madhya Pradesh has the <b>highest forest cover</b> in India.</li>
+                <li>It is home to <b>three Jyotirlingas</b> – Ujjain, Omkareshwar, and Mahakaleshwar.</li>
+                <li>The <b>Bhimbetka caves</b> have rock paintings dating back over <b>30,000 years</b>.</li>
+                <li>It has the largest number of <b>tigers</b> in India.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
             <a href='index.html'>Back to India Map</a>
         </div>
