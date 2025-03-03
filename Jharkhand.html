@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,50 +22,136 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Jharkhand</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Hundru_Falls.jpg" alt="Hundru Falls">
-        <p><i>Hundru Falls</i></p>
-        
+
+        <img src="images/temp_12.jpg" >
+        <p>Hundru Falls – A stunning waterfall on the Subarnarekha River</p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
-            <li><strong>Area:</strong> 79,714 Sq. Kms</li>
-            <li><strong>Capital:</strong> Ranchi</li>
-            <li><strong>Language:</strong> Hindi, Santali, Mundari, Ho</li>
-            <li><strong>Population:</strong> 3,29,88,134</li>
-            <li><strong>Famous for:</strong> Betla National Park, Hundru Falls, Dassam Falls, Parasnath Hill, Tribal Culture</li>
-            <li><strong>Major Cities:</strong> Ranchi, Jamshedpur, Dhanbad, Bokaro</li>
+            <li>Area: 79,714 Sq. Kms</li>
+            <li>Capital: Ranchi</li>
+            <li>Languages: Hindi, Santali, Mundari, Ho</li>
+            <li>Population: 32,988,134</li>
+            <li>Famous for: Betla National Park, Hundru Falls, Dassam Falls, Parasnath Hill, Tribal Culture</li>
+            <li>Major Cities: Ranchi, Jamshedpur, Dhanbad, Bokaro</li>
         </ul>
-        <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Betla_National_Park.jpg" alt="Betla National Park">
-        <p><i>Betla National Park</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Parasnath_Hill.jpg" alt="Parasnath Hill">
-        <p><i>Parasnath Hill</i></p>
-
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Dassam_Falls.jpg" alt="Dassam Falls">
-        <p><i>Dassam Falls</i></p>
 
         <hr>
+
+        <h2>Geographical & Economic Importance</h2>
+        <div class="content">
+            <p>Jharkhand is known as the mineral heartland of India, with rich deposits of coal, iron ore, copper, and uranium. The state plays a crucial role in India's steel and mining industries, housing major industries in cities like Jamshedpur, Bokaro, and Dhanbad.</p>
+            <p>Jharkhand is also rich in biodiversity, with dense forests covering over 29% of its area. Betla National Park and Dalma Wildlife Sanctuary are home to diverse wildlife, including elephants and tigers.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>Jharkhand has a vibrant tribal culture, with over 32 recognized tribes, including Santhal, Munda, and Ho. Tribal festivals such as Sarhul, Karma, and Sohrai reflect the deep connection of indigenous communities with nature.</p>
+            <p>The state is known for its traditional art forms, including Paitkar paintings, Sohrai murals, and wooden handicrafts. Chhau dance, a mix of martial arts and storytelling, is an important cultural heritage of the region.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Jharkhand has a history of tribal resistance against colonial rule. The famous Santhal Rebellion (1855) and Birsa Munda’s uprising (1899-1900) were significant movements against British oppression.</p>
+            <p>Parasnath Hill, an important Jain pilgrimage site, has been a spiritual center for centuries. The region also has ancient temples like the Baba Baidyanath Temple in Deoghar, one of the twelve Jyotirlingas of Lord Shiva.</p>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li>Betla National Park – One of the first tiger reserves in India</li>
+                <li>Dassam Falls – A picturesque waterfall on the Kanchi River</li>
+                <li>Parasnath Hill – A sacred pilgrimage site for Jains</li>
+                <li>Netarhat – A beautiful hill station known as the "Queen of Chotanagpur"</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Jharkhand was carved out of Bihar in 2000, making it one of India's youngest states.</li>
+                <li>Jamshedpur, India's first planned industrial city, is home to Tata Steel, one of the world's largest steel manufacturers.</li>
+                <li>Jharkhand is known for its abundance of waterfalls, with over 20 major waterfalls across the state.</li>
+                <li>Birsa Munda, a tribal freedom fighter, is honored as the "Dharti Aaba" (Father of the Land).</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
             <a href='index.html'>Back to India Map</a>
         </div>
