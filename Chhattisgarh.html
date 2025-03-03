@@ -25,27 +25,54 @@
             width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
             height: auto;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.2em;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
         }
         hr {
             margin: 20px 0;
+            border: 0.5px solid #ccc;
         }
         .content {
             text-align: justify;
-            padding: 0 10px;
+            padding: 0 15px;
+            font-size: 1em;
+            line-height: 1.6;
         }
         .footer {
             margin-top: 20px;
+        }
+        .footer a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #007BFF;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
         }
         @media (max-width: 600px) {
             .container {
                 width: 95%;
                 padding: 15px;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 8px;
+            }
+            .footer a {
+                font-size: 0.9em;
+                padding: 8px 12px;
             }
         }
     </style>
@@ -54,10 +81,12 @@
     <div class="container">
         <h1>Chhattisgarh</h1>
 
-        <img src="images/temp6.jpg" >
+        <img src="images/temp6.jpg">
         <p><i>Chitrakote Waterfalls, 'Niagara of India'</i></p>
 
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
             <li><strong>Area:</strong> 1,35,192 Sq. Kms</li>
             <li><strong>Capital:</strong> Raipur</li>
@@ -66,21 +95,27 @@
             <li><strong>Famous for:</strong> Chitrakote Falls, Tribal Culture, Kanger Valley National Park, Bhoramdeo Temple, Danteshwari Temple</li>
             <li><strong>Major Cities:</strong> Raipur, Bilaspur, Durg, Bhilai, Korba</li>
         </ul>
+
         <hr>
 
+        <h2>Cultural Heritage & Nature</h2>
         <div class="content">
-            <h2>Cultural Heritage & Nature</h2>
-            <p>Chhattisgarh is home to **diverse tribal communities** that have preserved their traditions for centuries. The **Bastar Tribal Dance** is an integral part of festivals and celebrations.</p>
-            
-            <p>Nicknamed the **'Rice Bowl of India'**, Chhattisgarh is also famous for its lush green landscapes, dense forests, and scenic waterfalls, including **Chitrakote Falls**, often compared to Niagara Falls.</p>
-
-            <h2>Historical & Religious Importance</h2>
-            <p>Chhattisgarh boasts some of India’s **oldest temples**. The **Bhoramdeo Temple**, often called the **'Khajuraho of Chhattisgarh'**, showcases intricate carvings. The **Danteshwari Temple**, dedicated to Goddess Danteshwari, is one of the **Shakti Peethas** and attracts thousands of pilgrims.</p>
+            <p>Chhattisgarh is home to <strong>diverse tribal communities</strong> that have preserved their traditions for centuries. The <strong>Bastar Tribal Dance</strong> is an integral part of festivals and celebrations.</p>
+            <p>Nicknamed the <strong>'Rice Bowl of India'</strong>, Chhattisgarh is also famous for its lush green landscapes, dense forests, and scenic waterfalls, including <strong>Chitrakote Falls</strong>, often compared to Niagara Falls.</p>
         </div>
 
         <hr>
+
+        <h2>Historical & Religious Importance</h2>
+        <div class="content">
+            <p>Chhattisgarh boasts some of India’s <strong>oldest temples</strong>. The <strong>Bhoramdeo Temple</strong>, often called the <strong>'Khajuraho of Chhattisgarh'</strong>, showcases intricate carvings.</p>
+            <p>The <strong>Danteshwari Temple</strong>, dedicated to Goddess Danteshwari, is one of the <strong>Shakti Peethas</strong> and attracts thousands of pilgrims.</p>
+        </div>
+
+        <hr>
+        
         <div class="footer">
-            <a href='index.html'>Back to India Map</a>
+            <a href="index.html">Back to India Map</a>
         </div>
     </div>
 </body>
