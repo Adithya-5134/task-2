@@ -13,99 +13,146 @@
             padding: 0;
         }
         .container {
-            width: 90%;
-            max-width: 600px;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
-            padding: 15px;
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
             width: 100%;
+            max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
         }
         h1 {
-            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 10px;
         }
-        p {
-            text-align: justify;
-            font-size: 16px;
-            line-height: 1.5;
-            margin: 10px 0;
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
             padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
-            text-align: center;
+            font-size: 1em;
         }
         .footer a {
             text-decoration: none;
-            font-weight: bold;
             color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1><b>Mizoram</b></h1>
-        <img src="images/temp_19.jpeg" >
+        <h1>Mizoram</h1>
+
+        <img src="images/temp_19.jpeg">
         <p><i>Aizawl City - The capital of Mizoram</i></p>
 
         <hr>
 
-        <h2><b>General Information</b></h2>
+        <h2>Quick Facts</h2>
         <ul>
             <li><b>Area:</b> 21,081 Sq. Kms</li>
             <li><b>Capital:</b> Aizawl</li>
             <li><b>Language:</b> Mizo, English</li>
             <li><b>Population:</b> 1,097,206</li>
+            <li><b>Famous for:</b> Bamboo forests, Traditional Handicrafts, Folk Dances, Serene Hills</li>
             <li><b>Major Cities:</b> Aizawl, Lunglei, Champhai</li>
         </ul>
 
         <hr>
 
-        <h2><b>Importance of Mizoram</b></h2>
-        <p>Mizoram, known as the <b>"Land of the Hill People"</b>, is a state with mesmerizing landscapes, unique traditions, and a peaceful environment. It plays an essential role in India's <b>northeastern connectivity and biodiversity conservation</b>.</p>
+        <h2>Geographical & Economic Importance</h2>
+        <div class="content">
+            <p>Mizoram, known as the <b>"Land of the Hill People"</b>, features breathtaking landscapes, rolling hills, and lush forests. The state plays a vital role in <b>northeastern connectivity and biodiversity conservation</b>.</p>
+            <p>The economy primarily relies on <b>agriculture, bamboo industries, and handloom weaving</b>. Mizoram is a major producer of <b>ginger, turmeric, and fruits</b>.</p>
+        </div>
 
-        <h2><b>Cultural Significance</b></h2>
-        <p>Mizoram is home to vibrant tribal traditions, dance forms like <b>Chheih Lam, Khuallam, and Cheraw (Bamboo Dance)</b>, and colorful festivals such as <b>Chapchar Kut</b>. The Mizo culture is deeply rooted in community bonding and rich folklore.</p>
-        <p>The state is also known for its <b>handicrafts and weaving</b>, producing beautiful traditional textiles.</p>
+        <hr>
 
-        <h2><b>Historical Significance</b></h2>
-        <p>Mizoram's history is marked by its transition from the Lushai Hills to a full-fledged state in 1987. The Mizo National Front (MNF) played a crucial role in shaping its modern history, leading to the signing of the <b>Mizo Peace Accord</b> in 1986, making it one of India's most peaceful states.</p>
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Mizoram's history includes its transition from the Lushai Hills to full statehood in 1987. The <b>Mizo National Front (MNF)</b> played a key role, leading to the <b>Mizo Peace Accord</b> in 1986, making Mizoram one of the most peaceful states in India.</p>
+        </div>
 
-        <h2><b>Tourist Attractions</b></h2>
-        <p>Some of Mizoram's most famous destinations include:</p>
-        <ul>
-            <li><b>Vantawng Falls:</b> The tallest waterfall in Mizoram, surrounded by dense forests.</li>
-            <li><b>Reiek Tlang:</b> A stunning hilltop offering panoramic views of Mizoram.</li>
-            <li><b>Durtlang Hills:</b> A popular viewpoint near Aizawl, perfect for trekking.</li>
-            <li><b>Blue Mountain (Phawngpui):</b> The highest peak in Mizoram, known for its orchids and rare wildlife.</li>
-        </ul>
+        <hr>
 
-        <h2><b>Economic Importance</b></h2>
-        <p>Mizoram's economy is largely based on <b>agriculture, bamboo products, and handloom industries</b>. The state is a major producer of <b>ginger, turmeric, and fruits</b>. Bamboo-based industries contribute significantly to its economy.</p>
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>Mizoram has a vibrant tribal culture with unique dance forms like <b>Chheih Lam, Khuallam, and Cheraw (Bamboo Dance)</b>. The people celebrate festivals such as <b>Chapchar Kut</b>, a spring festival full of music and dance.</p>
+            <p>The state is famous for its <b>handicrafts and textiles</b>, showcasing intricate woven designs and bamboo-based artwork.</p>
+        </div>
 
-        <h2><b>Unique Cuisine</b></h2>
-        <p>Mizoram's food is simple yet flavorful, featuring dishes like:</p>
-        <ul>
-            <li><b>Bai:</b> A traditional dish made with vegetables and bamboo shoots.</li>
-            <li><b>Misa Mach Poora:</b> Grilled shrimp with local spices.</li>
-            <li><b>Vawksa Rep:</b> Smoked pork dish popular among the Mizo people.</li>
-        </ul>
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Vantawng Falls:</b> The tallest waterfall in Mizoram, surrounded by dense forests.</li>
+                <li><b>Reiek Tlang:</b> A hilltop offering breathtaking views and a cultural village experience.</li>
+                <li><b>Durtlang Hills:</b> A popular trekking destination near Aizawl.</li>
+                <li><b>Phawngpui (Blue Mountain):</b> The highest peak in Mizoram, known for its orchids and rare wildlife.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Mizoram has <b>over 90% forest cover</b>, making it one of India's greenest states.</li>
+                <li>Aizawl is one of the **cleanest** cities in India.</li>
+                <li>Mizoram has a <b>100% literacy rate among the younger generation</b>, one of the highest in India.</li>
+                <li>The state follows the unique <b>tlawmngaihna</b> philosophy, meaning selfless service and community spirit.</li>
+            </ul>
+        </div>
 
         <hr>
 
         <div class="footer">
-            <a href="index.html">Back to India Map</a>
+            <a href='index.html'>Back to India Map</a>
         </div>
     </div>
 </body>
