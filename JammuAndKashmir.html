@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,53 +22,142 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.2em;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
         }
         hr {
             margin: 20px 0;
+            border: 0.5px solid #ccc;
+        }
+        .content {
+            text-align: justify;
+            padding: 0 10px;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 8px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Jammu & Kashmir</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Dal_Lake_Srinagar_2014.jpg" alt="Dal Lake, Srinagar">
-        <p><i>Dal Lake, Srinagar</i></p>
-        
+
+        <img src="images/temp_11.jpg" >
+        <p><i>Dal Lake, Srinagar – The Jewel of Kashmir</i></p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
-            <li><strong>Area:</strong> 55,538 Sq. Kms</li>
-            <li><strong>Capitals:</strong> Jammu (Winter), Srinagar (Summer)</li>
-            <li><strong>Languages:</strong> Kashmiri, Dogri, Urdu, Hindi</li>
-            <li><strong>Population:</strong> 13,606,320</li>
-            <li><strong>Famous for:</strong> Dal Lake, Gulmarg, Vaishno Devi Temple, Pahalgam, Mughal Gardens, Amarnath Cave, Kashmiri Handicrafts, Saffron, Wazwan Cuisine</li>
-            <li><strong>Major Cities:</strong> Srinagar, Jammu, Anantnag, Baramulla</li>
+            <li><b>Area:</b> 55,538 Sq. Kms</li>
+            <li><b>Capitals:</b> Jammu (Winter), Srinagar (Summer)</li>
+            <li><b>Languages:</b> Kashmiri, Dogri, Urdu, Hindi</li>
+            <li><b>Population:</b> 13,606,320</li>
+            <li><b>Famous for:</b> Dal Lake, Gulmarg, Vaishno Devi Temple, Pahalgam, Mughal Gardens, Amarnath Cave, Kashmiri Handicrafts, Saffron, Wazwan Cuisine</li>
+            <li><b>Major Cities:</b> Srinagar, Jammu, Anantnag, Baramulla</li>
         </ul>
+
         <hr>
-        
+
+        <h2>Geographical & Economic Importance</h2>
+        <div class="content">
+            <p>Jammu & Kashmir is known for its <b>stunning natural beauty</b>, with <i>snow-capped mountains, serene lakes, and lush valleys</i>. The region has a strategic location, sharing borders with <b>Pakistan and China</b>.</p>
+            <p>The state is famous for its <b>horticulture industry</b>, especially its <i>saffron, apples, and walnuts</i>. Handicrafts such as <b>Pashmina shawls, Kashmiri carpets, and papier-mâché art</b> are renowned worldwide.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Jammu & Kashmir has a <b>rich historical heritage</b>. It was an important part of the <i>Silk Route</i> and has been ruled by various dynasties, including the <b>Mughals, Sikhs, and Dogras</b>.</p>
+            <p>The region is home to <b>ancient Hindu temples, Buddhist monasteries, and Islamic architecture</b>, reflecting its diverse cultural influences.</p>
+        </div>
+
+        <hr>
+
+        <h2>Religious & Cultural Significance</h2>
+        <div class="content">
+            <ul>
+                <li><b>Vaishno Devi Temple:</b> One of the most sacred Hindu pilgrimage sites, attracting <i>millions of devotees annually</i>.</li>
+                <li><b>Amarnath Cave Temple:</b> Home to the <i>naturally occurring ice Shiva Lingam</i>, a major religious site for Hindus.</li>
+                <li><b>Jama Masjid, Srinagar:</b> A historic mosque built in the 14th century, reflecting <i>Islamic architectural brilliance</i>.</li>
+                <li><b>Wazwan Cuisine:</b> A traditional multi-course Kashmiri meal, known for dishes like <i>Rogan Josh, Yakhni, and Gushtaba</i>.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Gulmarg:</b> A world-famous <i>skiing destination</i> and home to the <i>highest golf course in the world</i>.</li>
+                <li><b>Pahalgam:</b> Known for its <i>scenic beauty, Lidder River, and trekking routes</i>.</li>
+                <li><b>Mughal Gardens:</b> Built by the Mughals, featuring <i>Persian-style landscaping</i>.</li>
+                <li><b>Sonmarg:</b> The "Meadow of Gold," offering <i>stunning glaciers and trekking trails</i>.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Jammu & Kashmir was given <b>special status under Article 370</b> until it was revoked in 2019.</li>
+                <li>The region produces the <b>world’s finest saffron</b>, grown in Pampore.</li>
+                <li>It is home to <b>Asia’s largest freshwater lake</b>, Wular Lake.</li>
+                <li>Jammu is called the <i>"City of Temples"</i> due to its <b>large number of ancient shrines</b>.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Gulmarg_Ski_Resort.jpg" alt="Gulmarg Ski Resort">
-        <p><i>Gulmarg Ski Resort</i></p>
-        
+        <p><i>Gulmarg Ski Resort – The Winter Wonderland</i></p>
+
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Vaishno_Devi_Temple.jpg" alt="Vaishno Devi Temple">
-        <p><i>Vaishno Devi Temple</i></p>
+        <p><i>Vaishno Devi Temple – A Divine Pilgrimage</i></p>
 
         <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Pahalgam_Kashmir.jpg" alt="Pahalgam">
-        <p><i>Pahalgam Valley</i></p>
+        <p><i>Pahalgam Valley – A Paradise for Nature Lovers</i></p>
 
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Amarnath_Cave_Temple.jpg" alt="Amarnath Cave">
-        <p><i>Amarnath Cave Temple</i></p>
-        
+        <p><i>Amarnath Cave Temple – The Sacred Shiva Shrine</i></p>
+
         <hr>
+
         <div class="footer">
             <a href='index.html'>Back to India Map</a>
         </div>
