@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,10 +22,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
             margin-top: 10px;
+            height: auto;
         }
         ul {
             text-align: left;
@@ -31,17 +35,28 @@
         hr {
             margin: 20px 0;
         }
+        .content {
+            text-align: justify;
+            padding: 0 10px;
+        }
         .footer {
             margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Goa</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Baga_Beach_Goa.jpg" alt="Baga Beach">
-        <p><i>Baga Beach, Goa</i></p>
-        
+
+        <img src="images/temp7.jpg" >
+        <p><i>Baga Beach – A popular destination for nightlife and water sports</i></p>
+
         <hr>
         <ul>
             <li><strong>Area:</strong> 3,702 Sq. Kms</li>
@@ -52,15 +67,26 @@
             <li><strong>Major Cities:</strong> Panaji, Margao, Vasco da Gama, Mapusa</li>
         </ul>
         <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Basilica_of_Bom_Jesus%2C_Goa.jpg" alt="Basilica of Bom Jesus">
-        <p><i>Basilica of Bom Jesus, Goa</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Dudhsagar_Waterfalls.jpg" alt="Dudhsagar Waterfalls">
-        <p><i>Dudhsagar Waterfalls, Goa</i></p>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Goa_Casino.jpg" alt="Casino in Goa">
-        <p><i>Casino in Goa</i></p>
+        <div class="content">
+            <h2>Culture & Heritage</h2>
+            <p>Goa, influenced by **Portuguese architecture and traditions**, boasts **centuries-old churches**, vibrant festivals like **Carnival**, and delicious seafood cuisine. The **Basilica of Bom Jesus**, a UNESCO World Heritage Site, houses the mortal remains of **St. Francis Xavier**.</p>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Basilica_of_Bom_Jesus%2C_Goa.jpg" alt="Basilica of Bom Jesus">
+            <p><i>Basilica of Bom Jesus, Goa</i></p>
+
+            <h2>Nature & Adventure</h2>
+            <p>Beyond its golden beaches, Goa is home to **lush green forests, waterfalls, and spice plantations**. The stunning **Dudhsagar Waterfalls**, located on the Goa-Karnataka border, is one of India's tallest waterfalls.</p>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Dudhsagar_Waterfalls.jpg" alt="Dudhsagar Waterfalls">
+            <p><i>Dudhsagar Waterfalls, Goa</i></p>
+
+            <h2>Entertainment & Nightlife</h2>
+            <p>Goa is famous for its **vibrant nightlife, casinos, and beach parties**. The state has both floating and land-based casinos, offering entertainment and gaming experiences.</p>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Goa_Casino.jpg" alt="Casino in Goa">
+            <p><i>Casino in Goa – A hub of entertainment and gaming</i></p>
+        </div>
 
         <hr>
         <div class="footer">
