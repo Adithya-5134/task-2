@@ -13,93 +13,160 @@
             padding: 0;
         }
         .container {
-            width: 90%;
-            max-width: 600px;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
-            padding: 15px;
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
             width: 100%;
+            max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            text-align: justify;
-            font-size: 16px;
-            line-height: 1.5;
             margin: 10px 0;
+            height: auto;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
             padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
-            text-align: center;
+            font-size: 1em;
         }
         .footer a {
             text-decoration: none;
-            font-weight: bold;
             color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Manipur</h1>
+
         <img src="images/temp_17.jpg" >
-        <p><i>Loktak Lake - The only floating lake in the world</i></p>
+        <p><i>Loktak Lake – The only floating lake in the world</i></p>
 
         <hr>
 
-        <h2>General Information</h2>
+        <h2>Quick Facts</h2>
         <ul>
             <li><b>Area:</b> 22,327 Sq. Kms</li>
             <li><b>Capital:</b> Imphal</li>
             <li><b>Language:</b> Meitei (Manipuri), English</li>
             <li><b>Population:</b> 2,855,794</li>
+            <li><b>Famous for:</b> Loktak Lake, Kangla Fort, Keibul Lamjao National Park, Ima Keithel (Women's Market), Sangai Festival</li>
             <li><b>Major Cities:</b> Imphal, Thoubal, Bishnupur</li>
         </ul>
 
         <hr>
 
-        <h2>Importance of Manipur</h2>
-        <p>Manipur, known as the **"Jewel of India"**, is a state of breathtaking beauty, rich traditions, and historical significance. It plays a crucial role in India's **northeastern culture, biodiversity, and trade relations with Southeast Asia**.</p>
+        <h2>Geographical & Economic Importance</h2>
+        <div class="content">
+            <p>Manipur is a land of **rolling hills and lush valleys**, with an economy primarily based on **agriculture, handloom, and handicrafts**. The state plays a crucial role in **India’s trade with Southeast Asia** due to its location near the Myanmar border.</p>
+            <p>It is also known for its production of **black rice (Chak-hao)**, which has gained global recognition for its high nutritional value.</p>
+        </div>
 
-        <h2>Cultural Significance</h2>
-        <p>Manipur is the birthplace of the **Ras Lila**, a classical dance form associated with Lord Krishna. The state celebrates numerous festivals, including **Yaoshang (Holi of Manipur), Lai Haraoba, and the Sangai Festival**, showcasing its vibrant heritage.</p>
-        <p>The state is also famous for **Ima Keithel**, the world's largest all-women market, symbolizing the **empowerment of women**.</p>
+        <hr>
 
         <h2>Historical Significance</h2>
-        <p>Manipur has a deep historical legacy, dating back to its powerful Meitei kingdom. It played a strategic role in **World War II**, with battles like the **Battle of Imphal (1944)** being a crucial turning point in the war.</p>
+        <div class="content">
+            <p>Manipur has a **rich historical heritage**, with its roots tracing back to the **Meitei Kingdom**. The **Battle of Imphal (1944)** during World War II was a significant turning point, where the British and Indian forces stopped the Japanese invasion.</p>
+            <p>The **Kangla Fort**, a symbol of Manipur's royal past, is an important historical site showcasing the legacy of its rulers.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>Manipur is the birthplace of the **Ras Lila**, a classical dance form depicting the divine love of **Lord Krishna and Radha**.</p>
+            <ul>
+                <li><b>Yaoshang Festival:</b> The Manipuri version of Holi, celebrated with cultural performances and sports.</li>
+                <li><b>Ima Keithel:</b> The world’s **largest women-run market**, showcasing Manipur’s unique social structure.</li>
+                <li><b>Sangai Festival:</b> A grand cultural and tourism festival named after the rare **Sangai deer**, found only in Manipur.</li>
+                <li><b>Traditional Attire:</b> The famous **Phanek and Innaphi** are beautifully woven garments worn by Manipuri women.</li>
+            </ul>
+        </div>
+
+        <hr>
 
         <h2>Tourist Attractions</h2>
-        <p>Some of Manipur's most popular destinations include:</p>
-        <ul>
-            <li><b>Loktak Lake:</b> The largest freshwater lake in Northeast India, famous for its **phumdis (floating islands)**.</li>
-            <li><b>Kangla Fort:</b> A symbol of Manipuri history and a major archaeological site.</li>
-            <li><b>Keibul Lamjao National Park:</b> The world's only **floating national park**, home to the endangered Sangai deer.</li>
-        </ul>
+        <div class="content">
+            <ul>
+                <li><b>Loktak Lake:</b> The **largest freshwater lake in Northeast India**, famous for its **floating phumdis (islands)**.</li>
+                <li><b>Kangla Fort:</b> An ancient fort that was the royal seat of the Manipuri kings.</li>
+                <li><b>Keibul Lamjao National Park:</b> The world’s **only floating national park**, home to the endangered **Sangai deer**.</li>
+                <li><b>Shirui Hills:</b> Famous for the **Shirui Lily**, a rare flower found only in this region.</li>
+                <li><b>Ukhrul:</b> A picturesque hill town with stunning landscapes and cultural heritage.</li>
+            </ul>
+        </div>
 
-        <h2>Economic Importance</h2>
-        <p>Manipur's economy is **agriculture-driven**, with a focus on **handloom and handicrafts**. The state is known for its **black rice (Chak-hao)** and traditional bamboo products, which are highly valued across India.</p>
+        <hr>
 
-        <h2>Unique Cuisine</h2>
-        <p>Manipur's cuisine is rich in flavors, featuring dishes like:</p>
-        <ul>
-            <li><b>Eromba:</b> A mashed vegetable dish with fermented fish.</li>
-            <li><b>Chak-hao Kheer:</b> A delicious kheer made from black rice.</li>
-            <li><b>Ngari-based Curries:</b> Fermented fish used in various traditional recipes.</li>
-        </ul>
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Manipur is known as the **"Jewel of India"** due to its **scenic beauty and rich culture**.</li>
+                <li>The **Manipuri martial art "Thang-Ta"** is a traditional war technique involving swords and spears.</li>
+                <li>Manipur was an independent kingdom until it merged with India in **1949**.</li>
+                <li>The state has a **strong sports culture**, producing renowned athletes like **Mary Kom (Boxing Champion)**.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Traditional Cuisine</h2>
+        <div class="content">
+            <ul>
+                <li><b>Eromba:</b> A mashed vegetable dish blended with **fermented fish (Ngari)**.</li>
+                <li><b>Chak-hao Kheer:</b> A delicious **black rice pudding**, known for its rich flavor and nutritional value.</li>
+                <li><b>Singju:</b> A unique spicy Manipuri salad made with raw vegetables and local herbs.</li>
+                <li><b>Kangsoi:</b> A healthy **stew made with seasonal vegetables** and local spices.</li>
+            </ul>
+        </div>
 
         <hr>
 
