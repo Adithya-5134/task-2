@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,30 +22,65 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.2em;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
         }
         hr {
             margin: 20px 0;
+            border: 0.5px solid #ccc;
+        }
+        .content {
+            text-align: justify;
+            padding: 0 10px;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 8px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Haryana</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Sultanpur_National_Park.jpg" alt="Sultanpur National Park">
-        <p><i>Sultanpur National Park</i></p>
-        
+
+        <img src="images/temp9.jpg" >
+        <p><i>Sultanpur National Park – A Haven for Birdwatchers</i></p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
             <li><strong>Area:</strong> 44,212 Sq. Kms</li>
             <li><strong>Capital:</strong> Chandigarh</li>
@@ -51,18 +89,62 @@
             <li><strong>Famous for:</strong> Surajkund Mela, Sultanpur National Park, Kingdom of Dreams, Kurukshetra, Sheetla Mata Mandir</li>
             <li><strong>Major Cities:</strong> Gurgaon, Faridabad, Rohtak, Panipat</li>
         </ul>
-        <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Surajkund_Mela.jpg" alt="Surajkund Mela">
-        <p><i>Surajkund Mela</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Kingdom_of_Dreams_Gurgaon.jpg" alt="Kingdom of Dreams">
-        <p><i>Kingdom of Dreams, Gurgaon</i></p>
-
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Brahma_Sarovar_Kurukshetra.jpg" alt="Brahma Sarovar, Kurukshetra">
-        <p><i>Brahma Sarovar, Kurukshetra</i></p>
 
         <hr>
+
+        <h2>Importance of Haryana</h2>
+        <div class="content">
+            <p>Haryana is one of India’s **most industrialized states**, with major hubs like **Gurgaon and Faridabad** playing a key role in India’s economic growth. It is home to **Maruti Suzuki’s manufacturing units** and **several IT and automobile industries**.</p>
+            <p>The state also plays a crucial role in India’s **agriculture sector**, contributing significantly to the country's **wheat and rice production**.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Haryana is known for **Kurukshetra**, the legendary battlefield of the **Mahabharata**, where Lord Krishna delivered the **Bhagavad Gita** to Arjuna.</p>
+            <p>Panipat, another historically significant city, witnessed three major **battles that shaped India's history**—the **Battles of Panipat (1526, 1556, and 1761)**.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Heritage</h2>
+        <div class="content">
+            <ul>
+                <li><strong>Folk Dances:</strong> Haryana is famous for its **Ghoomar, Jhumar, and Phag Dance**.</li>
+                <li><strong>Surajkund Mela:</strong> One of India’s largest **handicraft fairs**, attracting artisans from across the country.</li>
+                <li><strong>Festivals:</strong> Haryana celebrates **Teej, Baisakhi, and Diwali** with grandeur.</li>
+                <li><strong>Haryanvi Cuisine:</strong> Includes **Bajra Khichdi, Singri ki Sabzi, Kachri ki Chutney**, and **Lassi**.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><strong>Surajkund Mela:</strong> A world-famous **craft fair** showcasing traditional arts.</li>
+                <li><strong>Kingdom of Dreams:</strong> India’s first **live entertainment, theatre, and leisure** destination.</li>
+                <li><strong>Brahma Sarovar (Kurukshetra):</strong> A sacred water tank mentioned in **Hindu scriptures**.</li>
+                <li><strong>Sultanpur National Park:</strong> A major **bird sanctuary**, home to over **250 species of migratory birds**.</li>
+                <li><strong>Sheetla Mata Mandir (Gurgaon):</strong> A popular **pilgrimage site** dedicated to Goddess Sheetla.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Kurukshetra is known as the **"Land of the Bhagavad Gita"**.</li>
+                <li>Haryana has the **highest number of rural crorepatis** in India.</li>
+                <li>It is the **largest exporter of Basmati rice** in India.</li>
+                <li>Gurgaon is a major **IT and business hub**, often called **"Millennium City"**.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
             <a href='index.html'>Back to India Map</a>
         </div>
