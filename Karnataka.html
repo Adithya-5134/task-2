@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,50 +22,142 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Karnataka</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Vidhan_Soudha_Bangalore.jpg" alt="Vidhana Soudha">
-        <p><i>Vidhana Soudha, Bangalore</i></p>
-        
+
+        <img src="images/temp_13.jpg" >
+        <p><i>Vidhana Soudha – The seat of Karnataka's government in Bangalore</i></p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
-            <li><strong>Area:</strong> 1,91,791 Sq. Kms</li>
-            <li><strong>Capital:</strong> Bangalore</li>
-            <li><strong>Language:</strong> Kannada</li>
-            <li><strong>Population:</strong> 6,10,95,297</li>
-            <li><strong>Famous for:</strong> IT Hub, Historical Temples, Coffee Plantations, Silk Industry, UNESCO Heritage Sites (Hampi, Pattadakal), Jog Falls</li>
-            <li><strong>Major Cities:</strong> Bangalore, Mysore, Mangalore, Hubli-Dharwad</li>
+            <li><b>Area:</b> 1,91,791 Sq. Kms</li>
+            <li><b>Capital:</b> Bangalore</li>
+            <li><b>Language:</b> Kannada</li>
+            <li><b>Population:</b> 6,10,95,297</li>
+            <li><b>Famous for:</b> IT Hub, Historical Temples, Coffee Plantations, Silk Industry, UNESCO Heritage Sites (Hampi, Pattadakal), Jog Falls</li>
+            <li><b>Major Cities:</b> Bangalore, Mysore, Mangalore, Hubli-Dharwad</li>
         </ul>
-        <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Mysore_Palace_Night.jpg" alt="Mysore Palace">
-        <p><i>Mysore Palace</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Hampi_Ruins.jpg" alt="Hampi Ruins">
-        <p><i>Hampi Ruins</i></p>
-
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Jog_Falls.JPG" alt="Jog Falls">
-        <p><i>Jog Falls, Karnataka</i></p>
 
         <hr>
+
+        <h2>Geographical & Economic Importance</h2>
+        <div class="content">
+            <p>Karnataka is a state of diverse landscapes, featuring the <b>Western Ghats, Deccan Plateau, and coastal regions</b>. The state is a major producer of <b>coffee, silk, and sandalwood</b>.</p>
+            <p>It is known as the <b>Silicon Valley of India</b>, with Bangalore being a global IT hub, housing companies like <i>Infosys, Wipro, and ISRO</i>.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Karnataka has a rich history dating back to the rule of <b>Mauryas, Chalukyas, Rashtrakutas, Vijayanagara Empire, and Wodeyars</b>. The ruins of <b>Hampi</b>, a UNESCO World Heritage Site, were once part of the Vijayanagara Empire, one of India's greatest medieval kingdoms.</p>
+            <p>The <i>Chalukyan and Hoysala dynasties</i> contributed significantly to temple architecture, with sites like <b>Pattadakal and Belur-Halebidu</b>.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>Karnataka has a rich cultural heritage, influenced by its royal past and vibrant traditions.</p>
+            <ul>
+                <li><b>Dasara Festival:</b> Mysore's grand festival, celebrated with processions and royal rituals.</li>
+                <li><b>Yakshagana:</b> A unique form of dance-drama from coastal Karnataka.</li>
+                <li><b>Kannada Literature:</b> Home to Jnanpith award-winning poets like Kuvempu and U.R. Ananthamurthy.</li>
+                <li><b>Karnataka Cuisine:</b> Famous for <i>Mysore Pak, Bisi Bele Bath, Neer Dosa, and Coorg Coffee</i>.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Mysore Palace:</b> A stunning royal palace and a major tourist attraction.</li>
+                <li><b>Hampi:</b> The ruins of the Vijayanagara Empire, a UNESCO World Heritage Site.</li>
+                <li><b>Jog Falls:</b> One of India's highest waterfalls, located in the Western Ghats.</li>
+                <li><b>Coorg:</b> A beautiful hill station known for its coffee plantations.</li>
+                <li><b>Pattadakal:</b> An ancient temple complex showcasing Chalukyan architecture.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Bangalore is known as the <b>"Garden City of India"</b> and the <b>"Silicon Valley of India"</b>.</li>
+                <li>Karnataka is the largest producer of <b>silk</b> in India, contributing to over 60% of the country's silk production.</li>
+                <li>The state is home to the oldest known inscription in Kannada, dating back to the <b>5th century</b>.</li>
+                <li>Karnataka has the <b>highest number of Jnanpith Awards</b> for literature in India.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
             <a href='index.html'>Back to India Map</a>
         </div>
