@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,30 +22,65 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.2em;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
         }
         hr {
             margin: 20px 0;
+            border: 0.5px solid #ccc;
+        }
+        .content {
+            text-align: justify;
+            padding: 0 10px;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 8px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Himachal Pradesh</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Shimla_Valley.jpg" alt="Shimla Valley">
-        <p><i>Shimla Valley</i></p>
-        
+
+        <img src="images/temp10.jpg" >
+        <p><i>Shimla Valley – The Queen of Hills</i></p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
         <ul>
             <li><strong>Area:</strong> 55,673 Sq. Kms</li>
             <li><strong>Capital:</strong> Shimla (Summer), Dharamshala (Winter)</li>
@@ -51,21 +89,62 @@
             <li><strong>Famous for:</strong> Himalayan Landscapes, Hill Stations, Temples, Adventure Sports, Apple Orchards</li>
             <li><strong>Major Cities:</strong> Shimla, Manali, Dharamshala, Kullu</li>
         </ul>
-        <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Dharamshala_Himachal_Pradesh.jpg" alt="Dharamshala">
-        <p><i>Dharamshala</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Manali_Himachal_Pradesh.jpg" alt="Manali">
-        <p><i>Manali</i></p>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Kullu_Valley.jpg" alt="Kullu Valley">
-        <p><i>Kullu Valley</i></p>
-
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Great_Himalayan_National_Park.jpg" alt="Great Himalayan National Park">
-        <p><i>Great Himalayan National Park</i></p>
-        
         <hr>
+
+        <h2>Importance of Himachal Pradesh</h2>
+        <div class="content">
+            <p>Himachal Pradesh is **one of India’s most picturesque states**, known for its **snow-capped mountains, lush valleys, and serene rivers**. The state is a **major tourist destination**, attracting visitors for **trekking, skiing, and adventure sports**.</p>
+            <p>Himachal Pradesh is also **one of India’s largest apple producers**, contributing significantly to the **country's horticulture sector**. The state has a strong focus on **hydroelectric power**, generating **over 25% of India's total hydroelectricity**.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>The region has a **rich history**, with references in **ancient Hindu texts like the Mahabharata and Ramayana**. It was a part of **many ancient empires**, including the **Gupta Empire** and the **Katoch Dynasty**.</p>
+            <p>Dharamshala is home to the **Tibetan Government-in-Exile** and the **Dalai Lama**, making it a **global center for Tibetan Buddhism**.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Heritage</h2>
+        <div class="content">
+            <ul>
+                <li><strong>Folk Dances:</strong> Himachal Pradesh is famous for **Nati, Kayang, and Chamba Dance**.</li>
+                <li><strong>Festivals:</strong> The state celebrates **Kullu Dussehra, Losar Festival, and Minjar Fair** with great enthusiasm.</li>
+                <li><strong>Handicrafts:</strong> The region is known for **Pashmina Shawls, Kangra Paintings, and Chamba Rumals**.</li>
+                <li><strong>Traditional Cuisine:</strong> Includes **Dham (a traditional meal), Chana Madra, Babru, and Sidu**.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><strong>Shimla:</strong> The **capital city** and a famous **British-era hill station**.</li>
+                <li><strong>Manali:</strong> A paradise for **adventure lovers**, known for **skiing, paragliding, and trekking**.</li>
+                <li><strong>Dharamshala:</strong> Home to the **Dalai Lama** and a center of **Tibetan culture**.</li>
+                <li><strong>Great Himalayan National Park:</strong> A **UNESCO World Heritage Site**, known for **rare wildlife species**.</li>
+                <li><strong>Kullu Valley:</strong> Famous for **apple orchards, scenic landscapes, and river rafting**.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Himachal Pradesh is known as **"Dev Bhoomi" (Land of the Gods)** due to its **many ancient temples**.</li>
+                <li>The state has **the highest per capita income** among **non-industrialized Indian states**.</li>
+                <li>It was the **second Indian state to achieve 100% literacy** after Kerala.</li>
+                <li>Himachal Pradesh has **Asia’s oldest hydroelectric plant** in **Jogindernagar**.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
             <a href='index.html'>Back to India Map</a>
         </div>
