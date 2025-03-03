@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,10 +22,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
             margin-top: 10px;
+            height: auto;
         }
         ul {
             text-align: left;
@@ -31,16 +35,27 @@
         hr {
             margin: 20px 0;
         }
+        .content {
+            text-align: justify;
+            padding: 0 10px;
+        }
         .footer {
             margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Arunachal Pradesh</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Tawang_Monastery_in_Arunachal_Pradesh.jpg" alt="Tawang Monastery">
-        <p><i>Tawang Monastery</i></p>
+        
+        <img src="images/temp3.jpg" >
+        <p><i>Tawang Monastery, one of the largest monasteries in India</i></p>
         
         <hr>
         <ul>
@@ -52,15 +67,14 @@
             <li><strong>Major Cities:</strong> Itanagar, Tawang, Ziro, Pasighat</li>
         </ul>
         <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Sela_Pass.jpg" alt="Sela Pass">
-        <p><i>Sela Pass</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Ziro_Valley.jpg" alt="Ziro Valley">
-        <p><i>Ziro Valley</i></p>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Namdapha_national_park.jpg" alt="Namdapha National Park">
-        <p><i>Namdapha National Park</i></p>
+        <div class="content">
+            <h2>Importance of Arunachal Pradesh</h2>
+            <p>Arunachal Pradesh, known as the "Land of the Rising Sun," is an important state due to its **geographical location, rich biodiversity, and cultural diversity**. It shares international borders with **China, Bhutan, and Myanmar**, making it strategically crucial for India's security. The state is home to **26 major tribes and over 100 sub-tribes**, preserving ancient traditions and languages. It is also an **ecological hotspot**, with vast forests, wildlife sanctuaries, and scenic landscapes that attract tourists.</p>
+
+            <h2>Historical Significance</h2>
+            <p>The history of Arunachal Pradesh is deeply rooted in ancient tribal cultures and Buddhist traditions. The famous **Tawang Monastery**, built in the 17th century, is one of the most significant Buddhist centers in India. The state was also a key region during the **1962 Indo-China war**, with areas like Tawang witnessing intense battles. The indigenous tribes have maintained their unique cultural heritage for centuries, passing down oral histories and folklore.</p>
+        </div>
 
         <hr>
         <div class="footer">
