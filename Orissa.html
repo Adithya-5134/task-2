@@ -13,93 +13,139 @@
             padding: 0;
         }
         .container {
-            width: 90%;
-            max-width: 600px;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
-            padding: 15px;
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
             width: 100%;
+            max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
         }
         h1 {
-            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 10px;
         }
-        p {
-            text-align: justify;
-            font-size: 16px;
-            line-height: 1.5;
-            margin: 10px 0;
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
             padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
-            text-align: center;
+            font-size: 1em;
         }
         .footer a {
             text-decoration: none;
-            font-weight: bold;
             color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1><b>Odisha</b></h1>
+        <h1>Odisha</h1>
+
         <img src="images/temp_21.jpg">
-        <p><i>Bhubaneswar - The capital of Odisha</i></p>
+        <p><i>Konark Sun Temple - A UNESCO World Heritage Site</i></p>
 
         <hr>
 
-        <h2><b>General Information</b></h2>
+        <h2>Quick Facts</h2>
         <ul>
-            <li><b>Area:</b> 1,55,707 Sq. Kms</li>
+            <li><b>Area:</b> 155,707 Sq. Kms</li>
             <li><b>Capital:</b> Bhubaneswar</li>
             <li><b>Language:</b> Odia</li>
             <li><b>Population:</b> 4,19,74,218</li>
+            <li><b>Famous for:</b> Jagannath Temple, Puri Beach, Konark Sun Temple, Chilika Lake, Ratha Yatra</li>
             <li><b>Major Cities:</b> Bhubaneswar, Cuttack, Rourkela</li>
         </ul>
 
         <hr>
 
-        <h2><b>Importance of Odisha</b></h2>
-        <p>Odisha is known as the <b>Land of Temples</b> and is famous for its rich cultural heritage, historical significance, and natural beauty. It plays a crucial role in India's <b>spiritual and economic development</b>.</p>
+        <h2>Geographical & Economic Importance</h2>
+        <div class="content">
+            <p>Odisha has a long coastline along the Bay of Bengal, contributing significantly to **maritime trade and fishing industries**. It is rich in **mineral resources**, including **iron ore, coal, and bauxite**, making it one of India's major industrial hubs.</p>
+        </div>
 
-        <h2><b>Cultural Significance</b></h2>
-        <p>Odisha is home to <b>Jagannath Temple</b>, which hosts the world-famous <b>Ratha Yatra</b>. The state is also known for <b>Odissi dance, Sambalpuri textiles, and silver filigree work</b>.</p>
+        <hr>
 
-        <h2><b>Historical Significance</b></h2>
-        <p>The famous <b>Kalinga War</b>, which led to Emperor Ashoka's transformation to Buddhism, took place in Odisha. The <b>Konark Sun Temple</b>, a UNESCO World Heritage Site, stands as a marvel of ancient Indian architecture.</p>
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Odisha is historically known for the **Kalinga Empire**, which was the site of the famous **Kalinga War** fought by Emperor Ashoka. The war led to Ashoka's transformation and the spread of **Buddhism**. The **Konark Sun Temple** and **Jagannath Temple** are major heritage landmarks.</p>
+        </div>
 
-        <h2><b>Tourist Attractions</b></h2>
-        <p>Some of Odisha's most famous destinations include:</p>
-        <ul>
-            <li><b>Jagannath Temple:</b> A sacred Hindu temple in Puri.</li>
-            <li><b>Konark Sun Temple:</b> A UNESCO World Heritage Site.</li>
-            <li><b>Chilika Lake:</b> Asia’s largest coastal lagoon.</li>
-            <li><b>Lingaraj Temple:</b> A masterpiece of Kalinga architecture.</li>
-        </ul>
+        <hr>
 
-        <h2><b>Economic Importance</b></h2>
-        <p>Odisha's economy is driven by <b>agriculture, mining, tourism, and handicrafts</b>. The state is a major producer of <b>iron ore, bauxite, and handwoven textiles</b>.</p>
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>Odisha has a vibrant culture with classical dance forms like **Odissi**, which is one of the oldest dance forms in India. The **Ratha Yatra of Puri** is a world-famous festival celebrated annually. The state is also known for its exquisite **Pattachitra paintings and silver filigree work**.</p>
+        </div>
 
-        <h2><b>Unique Cuisine</b></h2>
-        <p>Odisha is known for its <b>temple cuisine and seafood dishes</b>, including:</p>
-        <ul>
-            <li><b>Dalma:</b> A lentil-based dish with vegetables.</li>
-            <li><b>Chhena Poda:</b> A famous caramelized cheesecake.</li>
-            <li><b>Mahaprasad:</b> Sacred food served at Jagannath Temple.</li>
-        </ul>
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Jagannath Temple:</b> A sacred Hindu temple and an important pilgrimage site.</li>
+                <li><b>Chilika Lake:</b> India's largest coastal lagoon, home to migratory birds and dolphins.</li>
+                <li><b>Konark Sun Temple:</b> A UNESCO World Heritage Site known for its architectural grandeur.</li>
+                <li><b>Simlipal National Park:</b> A biodiversity hotspot with tigers and waterfalls.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Odisha is the birthplace of **India's first Prime Minister of tribal origin**, Giridhar Gamang.</li>
+                <li>It has **one of the longest coastlines in India**, spanning around 485 km.</li>
+                <li>The **Odissi dance form** originated in Odisha and is over 2,000 years old.</li>
+                <li>The state has **the world's largest open-air theatre, Dhanu Yatra**.</li>
+            </ul>
+        </div>
 
         <hr>
 
