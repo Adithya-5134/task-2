@@ -9,9 +9,12 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 95%;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -19,52 +22,135 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            width: 80%;
+            width: 100%;
             max-width: 600px;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 10px 0;
+            height: auto;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         ul {
             text-align: left;
-            display: inline-block;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            text-align: justify;
+            padding: 10px;
         }
         hr {
-            margin: 20px 0;
+            margin: 15px 0;
+            border: 0.5px solid #ccc;
         }
         .footer {
             margin-top: 20px;
+            font-size: 1em;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1em;
+                padding: 6px;
+            }
+            .footer {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Uttar Pradesh</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Taj_Mahal_in_March_2004.jpg" alt="Taj Mahal">
-        <p><i>Taj Mahal, Agra</i></p>
-        
-        <hr>
-        <ul>
-            <li><strong>Area:</strong> 2,43,286 Sq. Kms</li>
-            <li><strong>Capital:</strong> Lucknow</li>
-            <li><strong>Language:</strong> Hindi, Urdu</li>
-            <li><strong>Population:</strong> 19,98,12,341</li>
-            <li><strong>Famous for:</strong> Taj Mahal, Kumbh Mela, Varanasi Ghats, Ayodhya (Ram Janmabhoomi), Mathura (Birthplace of Lord Krishna), Sarnath (Buddha's First Sermon), Nawabi Cuisine</li>
-            <li><strong>Major Cities:</strong> Lucknow, Agra, Varanasi, Kanpur, Prayagraj</li>
-        </ul>
-        <hr>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Varanasi_Ghats.jpg" alt="Varanasi Ghats">
-        <p><i>Varanasi Ghats</i></p>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Kumbh_Mela_2019_Prayaagraj.jpg" alt="Kumbh Mela">
-        <p><i>Kumbh Mela, Prayagraj</i></p>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bara_Imambara_Lucknow.jpg" alt="Bara Imambara">
-        <p><i>Bara Imambara, Lucknow</i></p>
-        
+        <img src="images/temp_26.jpg">
+        <p><i>Taj Mahal, Agra</i></p>
+
         <hr>
+
+        <h2>Quick Facts</h2>
+        <ul>
+            <li><b>Area:</b> 2,43,286 Sq. Kms</li>
+            <li><b>Capital:</b> Lucknow</li>
+            <li><b>Language:</b> Hindi, Urdu</li>
+            <li><b>Population:</b> 19,98,12,341</li>
+            <li><b>Famous for:</b> Taj Mahal, Kumbh Mela, Varanasi Ghats, Ayodhya (Ram Janmabhoomi), Mathura (Birthplace of Lord Krishna), Sarnath (Buddha's First Sermon), Nawabi Cuisine</li>
+            <li><b>Major Cities:</b> Lucknow, Agra, Varanasi, Kanpur, Prayagraj</li>
+        </ul>
+
+        <hr>
+
+        <h2>Geographical and Economic Importance</h2>
+        <div class="content">
+            <p>Uttar Pradesh is India's most populous state, located in the heart of the country. It has fertile plains, fed by the <b>Ganges, Yamuna, and Ghagra rivers</b>. The state's economy is driven by <b>agriculture, manufacturing, tourism, and handicrafts</b>. The region is known for its <b>textiles, brassware, and leather industries</b>.</p>
+        </div>
+
+        <hr>
+
+        <h2>Historical Significance</h2>
+        <div class="content">
+            <p>Uttar Pradesh has been the center of Indian civilization for thousands of years. It was home to the <b>ancient cities of Kashi (Varanasi)</b> and <b>Ayodhya</b>, and played a crucial role in India's freedom movement. The state also houses <b>Sarnath</b>, where Lord Buddha gave his first sermon.</p>
+        </div>
+
+        <hr>
+
+        <h2>Cultural Significance</h2>
+        <div class="content">
+            <p>Uttar Pradesh is known for its <b>rich traditions, classical music, dance, and Mughlai cuisine</b>. Festivals like <b>Diwali in Ayodhya</b> and <b>Kumbh Mela</b> in Prayagraj attract millions of devotees. The state's folk music and dances, such as <b>Rasiya and Nautanki</b>, add to its cultural diversity.</p>
+        </div>
+
+        <hr>
+
+        <h2>Tourist Attractions</h2>
+        <div class="content">
+            <ul>
+                <li><b>Taj Mahal (Agra):</b> A UNESCO World Heritage site and one of the Seven Wonders of the World.</li>
+                <li><b>Varanasi Ghats:</b> The spiritual heart of India, known for its holy rituals along the Ganges.</li>
+                <li><b>Kumbh Mela (Prayagraj):</b> The world’s largest religious gathering.</li>
+                <li><b>Bara Imambara (Lucknow):</b> A historic Mughal-era structure with a unique labyrinth.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>Interesting Facts</h2>
+        <div class="content">
+            <ul>
+                <li>Uttar Pradesh has <b>the highest population</b> among all Indian states.</li>
+                <li>The city of <b>Varanasi</b> is believed to be one of the <b>oldest continuously inhabited cities</b> in the world.</li>
+                <li><b>Kumbh Mela</b> attracts over <b>100 million pilgrims</b>, making it the largest human gathering.</li>
+                <li>Mathura and Ayodhya are the <b>birthplaces of Lord Krishna and Lord Rama</b>, respectively.</li>
+            </ul>
+        </div>
+
+        <hr>
+
         <div class="footer">
-            <a href='index.html'>Back to India Map</a>
+            <a href="index.html">Back to India Map</a>
         </div>
     </div>
 </body>
