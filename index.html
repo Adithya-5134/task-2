@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Map</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f8f8; /* Optional background color */
+        }
+        .map-container {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <img src="images/Map.png" usemap="#indiamap" ismap="ismap" > 
+    <div class="map-container">
+        <img src="images/Map.png" usemap="#indiamap" ismap="ismap">
+    </div>
     
     <map name="indiamap" >
         <area href="Tamilnadu.html" shape="poly" coords="222,733,218,719,224,705,224,691,215,677,207,665,199,657,214,655,228,654,237,646,231,635,240,631,252,633,260,624,272,622,281,619,282,629,270,635,262,643,263,655,268,665,276,675,232,725,236,714,250,706,252,694,262,685" title="TamilNadu"/>
