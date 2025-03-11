@@ -9,8 +9,11 @@ Welcome to the **Interactive India Map** project! 🗺️✨ This project provid
 ## 🔹 Features
 
 ✅ **Interactive & Easy Navigation** – Click on any state to explore its details.
+
 ✅ **Rich Information** – Covers history, culture, geography, and tourism.
+
 ✅ **Optimized for Mobile & Desktop** – Ensuring smooth access on all devices.
+
 ✅ **No JavaScript** – Lightweight, fast-loading pages.
 
 ---
